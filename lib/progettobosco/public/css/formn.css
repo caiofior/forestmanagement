@@ -1,0 +1,228 @@
+/* 
+    Document   : formn
+    Created on : 16-apr-2013, 14.40.41
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #325D27;
+    position: relative;
+    display: block;
+    *margin-top: 12px;
+    *margin-bottom: 0px;
+    -webkit-padding-before: 7.5px;
+    -webkit-padding-start: 0px;
+}
+legend {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+h4 {
+    position: relative;
+    color: #010080!important;
+    background-color: #ffffff;
+    font-size: 12px!important;
+    margin: 0px!important;
+    padding: 0px;
+    
+}
+fieldset > div > label {
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+label.double {
+    height: 40px;
+}
+label.triple {
+    height: 60px;
+}
+select {
+   margin: 0px !important;
+   padding: 0px !important;
+   height: 17px;
+   width: 80%;
+}
+input:not([type='radio']) {
+   width: 80%;
+   margin: 0px ;
+   padding: 0px;
+}
+input[type='radio'],input[type='checkbox'] {
+   background: transparent;
+   border: 0;
+}
+.scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+fieldset p {
+    width: 200px;
+    padding: 0px!important;
+    margin: 5px!important;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px!important;
+}
+/**
+* General part
+**/
+#general {
+    border-style: none;
+}
+#bosco_container {
+    width: 200px;
+}
+#codiope_container {
+    width: 200px;
+    margin-top: -40px;
+    margin-left: 220px;
+}
+#datasch_container {
+    width: 200px;
+    margin-top: -40px;
+    margin-left: 440px; 
+}
+#sup_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 300px;
+}
+#lung_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 410px;
+}
+#cod_part_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 520px;
+}
+#cod_ev_int_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 630px;
+}
+#dataeven_container {
+    width: 150px;
+    margin-top: 20px;
+}
+#l_container {
+    width: 600px;
+    margin-left: 160px;
+    margin-top: -40px;
+}
+#l_container div input[type='checkbox'],
+#l_container div div{
+    background-color: #808080;
+    float: left;
+    width: 80px;
+}
+#l1_container {
+    margin-top: -60px;
+    margin-left: 400px;
+    width: 100px;
+}
+#eve_int_container {
+    width: 150px;
+}
+/**
+* Event container
+**/
+#dati_intervento,
+#dati_evento {
+    border-style: none;
+    border-color: #0063DC;
+    border-width: 3px;
+    border-top-style: solid;
+}
+#evento_container {
+    width: 570px;
+}
+#evento_container div input {
+    float: left;
+}
+#evento_container div div {
+    float: left;
+    width: 80px;
+}
+#spec_event_container {
+    float: left;
+    width: 200px;
+}
+#desc_eve_container {
+    margin-top: -60px;
+    margin-left: 610px;
+    width: 200px;
+}
+#intervento_container {
+    margin-top: 10px;
+    width: 300px;
+}
+#m_prev_container {
+    margin-top: -40px;
+    margin-left: 320px;
+    width: 200px;
+}
+#intervento_specia_container {
+    width: 300px;
+}
+#m_prel_container {
+    margin-top: -40px;
+    margin-left: 320px;
+    width: 200px;
+}
+#intervento_arbus_container {
+    width: 300px;
+}
+#intervento_viabil_container {
+    width: 300px;
+}
+#desc_modi_container {
+    width: 300px;
+}
+#desc_effet_container {
+    margin-left: 320px;
+    margin-top: -110px;
+    width: 300px;
+}
+/**
+* notes container
+*/
+#notescontainer {
+    width: 750px;
+    height: 310px;
+}
+
+#newnote {
+    top: 24px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedan_note {
+    top: 124px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedan_note  div,
+#newnote  div{
+    position: relative;
+    clear: both;
+}
+#content_schedan_note div span,
+#newnote div span {
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}

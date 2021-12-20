@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="799" height="473" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="103" y="15" width="2" height="172" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="23" y="185" width="82" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="20" y="12" width="83" height="173" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="62" y="18">Forest</text>
+	<line stroke="black" stroke-opacity="1" x1="20" y1="22" x2="103" y2="22" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="28">workingcircle</text>
+	<line stroke="black" stroke-opacity="1" x1="20" y1="32" x2="103" y2="32" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="38">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="47">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="56">loadFromCode()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="65">setData()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="74">addOwner()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="83">removeOwner()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="92">addForestCompartmentCount()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="101">getAColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="110">getAttributeColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="119">getTColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="128">getRegion()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="137">surfaceRecalc()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="146">surfaceVerifyCalc()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="155">getEColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="164">getWorkingCircleColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="173">insert()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="22" y="182">setWorkingCircle()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="178" y="12" width="2" height="82" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="130" y="92" width="50" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="127" y="9" width="51" height="83" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="153" y="15">AColl</text>
+	<line stroke="black" stroke-opacity="1" x1="127" y1="19" x2="178" y2="19" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="129" y="25">forest</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="129" y="34">workingcircle</text>
+	<line stroke="black" stroke-opacity="1" x1="127" y1="38" x2="178" y2="38" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="129" y="44">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="129" y="53">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="129" y="62">setForest()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="129" y="71">setWorkingCircle()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="129" y="80">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="129" y="89">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="243" y="12" width="2" height="112" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="191" y="122" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="188" y="9" width="55" height="113" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="216" y="15">A</text>
+	<line stroke="black" stroke-opacity="1" x1="188" y1="19" x2="243" y2="19" />
+	<line stroke="black" stroke-opacity="1" x1="188" y1="23" x2="243" y2="23" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="29">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="38">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="47">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="56">getForest()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="65">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="74">getMunicipality()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="83">getCollector()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="92">getNotes()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="101">getCadastalColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="110">getBColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="190" y="119">getBForms()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="305" y="16" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="265" y="78" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="262" y="13" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="284" y="19">BColl</text>
+	<line stroke="black" stroke-opacity="1" x1="262" y1="23" x2="305" y2="23" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="264" y="29">a</text>
+	<line stroke="black" stroke-opacity="1" x1="262" y1="33" x2="305" y2="33" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="264" y="39">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="264" y="48">setFormA()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="264" y="57">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="264" y="66">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="264" y="75">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="379" y="15" width="2" height="122" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="327" y="135" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="324" y="12" width="55" height="123" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="352" y="18">B</text>
+	<line stroke="black" stroke-opacity="1" x1="324" y1="22" x2="379" y2="22" />
+	<line stroke="black" stroke-opacity="1" x1="324" y1="26" x2="379" y2="26" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="32">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="41">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="50">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="59">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="68">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="77">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="86">getB1Coll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="95">getForestType()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="104">getB2Coll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="113">getB3Coll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="122">getB4Coll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="326" y="131">getNColl()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="438" y="18" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="398" y="80" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="395" y="15" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="417" y="21">B1Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="395" y1="25" x2="438" y2="25" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="397" y="31">b</text>
+	<line stroke="black" stroke-opacity="1" x1="395" y1="35" x2="438" y2="35" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="397" y="41">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="397" y="50">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="397" y="59">setFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="397" y="68">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="397" y="77">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="541" y="17" width="2" height="148" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="461" y="163" width="82" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="458" y="14" width="83" height="149" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="500" y="20">B1</text>
+	<line stroke="black" stroke-opacity="1" x1="458" y1="24" x2="541" y2="24" />
+	<line stroke="black" stroke-opacity="1" x1="458" y1="28" x2="541" y2="28" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="34">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="43">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="52">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="61">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="70">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="79">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="88">getStructure()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="97">getCoverCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="106">getShrubCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="115">getHerbaceusCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="124">getRennovationSpecie()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="133">getForestMassEsteemColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="142">getNotes()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="151">getFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="460" y="160">getXColl()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="318" y="159" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="278" y="221" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="275" y="156" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="297" y="162">B2Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="275" y1="166" x2="318" y2="166" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="277" y="172">b</text>
+	<line stroke="black" stroke-opacity="1" x1="275" y1="176" x2="318" y2="176" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="277" y="182">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="277" y="191">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="277" y="200">setFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="277" y="209">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="277" y="218">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="578" y="172" width="2" height="122" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="498" y="292" width="82" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="495" y="169" width="83" height="123" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="537" y="175">B2</text>
+	<line stroke="black" stroke-opacity="1" x1="495" y1="179" x2="578" y2="179" />
+	<line stroke="black" stroke-opacity="1" x1="495" y1="183" x2="578" y2="183" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="189">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="198">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="207">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="216">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="225">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="234">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="243">getNotes()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="252">getFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="261">getCoverCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="270">getRennovationSpecie()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="279">getShrubCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="497" y="288">getHerbaceusCompositionColl()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="368" y="246" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="328" y="308" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="325" y="243" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="347" y="249">B3Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="325" y1="253" x2="368" y2="253" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="327" y="259">b</text>
+	<line stroke="black" stroke-opacity="1" x1="325" y1="263" x2="368" y2="263" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="327" y="269">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="327" y="278">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="327" y="287">setFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="327" y="296">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="327" y="305">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="485" y="199" width="2" height="158" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="405" y="355" width="82" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="402" y="196" width="83" height="159" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="444" y="202">B3</text>
+	<line stroke="black" stroke-opacity="1" x1="402" y1="206" x2="485" y2="206" />
+	<line stroke="black" stroke-opacity="1" x1="402" y1="210" x2="485" y2="210" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="216">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="225">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="234">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="243">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="252">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="261">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="270">getNotes()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="279">getFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="288">getShrubCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="297">getHerbaceusCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="306">getPastureWeedColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="315">getCoverCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="324">getRenovationCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="333">setData()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="342">getData()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="404" y="351">getTreeLineCompositionColl()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="439" y="364" width="2" height="112" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="359" y="474" width="82" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="356" y="361" width="83" height="113" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="398" y="367">B4</text>
+	<line stroke="black" stroke-opacity="1" x1="356" y1="371" x2="439" y2="371" />
+	<line stroke="black" stroke-opacity="1" x1="356" y1="375" x2="439" y2="375" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="381">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="390">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="399">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="408">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="417">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="426">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="435">getNotes()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="444">getFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="453">getShrubCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="462">getHerbaceusCompositionColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="358" y="471">getCoverCompositionColl()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="253" y="157" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="213" y="219" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="210" y="154" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="232" y="160">NColl</text>
+	<line stroke="black" stroke-opacity="1" x1="210" y1="164" x2="253" y2="164" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="212" y="170">b</text>
+	<line stroke="black" stroke-opacity="1" x1="210" y1="174" x2="253" y2="174" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="212" y="180">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="212" y="189">setFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="212" y="198">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="212" y="207">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="212" y="216">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="260" y="248" width="2" height="86" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="208" y="332" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="205" y="245" width="55" height="87" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="233" y="251">N</text>
+	<line stroke="black" stroke-opacity="1" x1="205" y1="255" x2="260" y2="255" />
+	<line stroke="black" stroke-opacity="1" x1="205" y1="259" x2="260" y2="259" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="207" y="265">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="207" y="274">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="207" y="283">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="207" y="292">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="207" y="301">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="207" y="310">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="207" y="319">getCollector()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="207" y="328">getNotes()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="69" y="217" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="29" y="279" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="26" y="214" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="48" y="220">EColl</text>
+	<line stroke="black" stroke-opacity="1" x1="26" y1="224" x2="69" y2="224" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="28" y="230">forest</text>
+	<line stroke="black" stroke-opacity="1" x1="26" y1="234" x2="69" y2="234" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="28" y="240">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="28" y="249">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="28" y="258">setForest()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="28" y="267">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="28" y="276">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="77" y="307" width="2" height="76" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="25" y="381" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="22" y="304" width="55" height="77" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="50" y="310">E</text>
+	<line stroke="black" stroke-opacity="1" x1="22" y1="314" x2="77" y2="314" />
+	<line stroke="black" stroke-opacity="1" x1="22" y1="318" x2="77" y2="318" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="24" y="324">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="24" y="333">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="24" y="342">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="24" y="351">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="24" y="360">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="24" y="369">getCollector()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="24" y="378">getE1Coll()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="71" y="414" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="31" y="476" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="28" y="411" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="50" y="417">E1Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="28" y1="421" x2="71" y2="421" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="30" y="427">e</text>
+	<line stroke="black" stroke-opacity="1" x1="28" y1="431" x2="71" y2="431" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="30" y="437">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="30" y="446">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="30" y="455">setFormE()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="30" y="464">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="30" y="473">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="606" y="19" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="566" y="81" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="563" y="16" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="585" y="22">XColl</text>
+	<line stroke="black" stroke-opacity="1" x1="563" y1="26" x2="606" y2="26" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="565" y="32">b1</text>
+	<line stroke="black" stroke-opacity="1" x1="563" y1="36" x2="606" y2="36" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="565" y="42">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="565" y="51">setFormB1()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="565" y="60">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="565" y="69">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="565" y="78">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="684" y="19" width="2" height="112" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="632" y="129" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="629" y="16" width="55" height="113" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="657" y="22">X</text>
+	<line stroke="black" stroke-opacity="1" x1="629" y1="26" x2="684" y2="26" />
+	<line stroke="black" stroke-opacity="1" x1="629" y1="30" x2="684" y2="30" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="36">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="45">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="54">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="63">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="72">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="81">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="90">getFormA()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="99">getDColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="108">getCColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="117">getFColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="631" y="126">getG1Coll()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="747" y="20" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="707" y="82" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="704" y="17" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="726" y="23">G1Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="704" y1="27" x2="747" y2="27" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="706" y="33">x</text>
+	<line stroke="black" stroke-opacity="1" x1="704" y1="37" x2="747" y2="37" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="706" y="43">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="706" y="52">setFormX()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="706" y="61">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="706" y="70">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="706" y="79">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="823" y="7" width="2" height="94" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="771" y="99" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="768" y="4" width="55" height="95" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="796" y="10">G1</text>
+	<line stroke="black" stroke-opacity="1" x1="768" y1="14" x2="823" y2="14" />
+	<line stroke="black" stroke-opacity="1" x1="768" y1="18" x2="823" y2="18" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="24">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="33">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="42">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="51">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="60">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="69">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="78">getFormX()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="87">getCollector()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="770" y="96">getGColl()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="816" y="121" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="776" y="183" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="773" y="118" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="795" y="124">GColl</text>
+	<line stroke="black" stroke-opacity="1" x1="773" y1="128" x2="816" y2="128" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="775" y="134">g1</text>
+	<line stroke="black" stroke-opacity="1" x1="773" y1="138" x2="816" y2="138" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="775" y="144">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="775" y="153">setFormG1()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="775" y="162">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="775" y="171">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="775" y="180">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="754" y="207" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="714" y="269" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="711" y="204" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="733" y="210">FColl</text>
+	<line stroke="black" stroke-opacity="1" x1="711" y1="214" x2="754" y2="214" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="713" y="220">x</text>
+	<line stroke="black" stroke-opacity="1" x1="711" y1="224" x2="754" y2="224" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="713" y="230">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="713" y="239">setFormX()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="713" y="248">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="713" y="257">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="713" y="266">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="827" y="202" width="2" height="104" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="775" y="304" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="772" y="199" width="55" height="105" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="800" y="205">F</text>
+	<line stroke="black" stroke-opacity="1" x1="772" y1="209" x2="827" y2="209" />
+	<line stroke="black" stroke-opacity="1" x1="772" y1="213" x2="827" y2="213" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="219">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="228">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="237">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="246">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="255">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="264">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="273">getFormX()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="282">getCollector()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="291">getF1Coll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="774" y="300">getF2Coll()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="751" y="330" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="711" y="392" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="708" y="327" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="730" y="333">F1Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="708" y1="337" x2="751" y2="337" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="710" y="343">f</text>
+	<line stroke="black" stroke-opacity="1" x1="708" y1="347" x2="751" y2="347" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="710" y="353">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="710" y="362">setFormF()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="710" y="371">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="710" y="380">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="710" y="389">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="823" y="331" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="783" y="393" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="780" y="328" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="802" y="334">F2Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="780" y1="338" x2="823" y2="338" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="782" y="344">f</text>
+	<line stroke="black" stroke-opacity="1" x1="780" y1="348" x2="823" y2="348" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="782" y="354">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="782" y="363">setFormF()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="782" y="372">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="782" y="381">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="782" y="390">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="542" y="405" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="502" y="467" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="499" y="402" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="521" y="408">C1Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="499" y1="412" x2="542" y2="412" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="501" y="418">c</text>
+	<line stroke="black" stroke-opacity="1" x1="499" y1="422" x2="542" y2="422" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="501" y="428">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="501" y="437">setFormC()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="501" y="446">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="501" y="455">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="501" y="464">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="642" y="397" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="602" y="459" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="599" y="394" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="621" y="400">C2Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="599" y1="404" x2="642" y2="404" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="601" y="410">c</text>
+	<line stroke="black" stroke-opacity="1" x1="599" y1="414" x2="642" y2="414" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="601" y="420">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="601" y="429">setFormC()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="601" y="438">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="601" y="447">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="601" y="456">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="178" y="118" width="2" height="50" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="126" y="166" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="123" y="115" width="55" height="51" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="151" y="121">WorkingCircle</text>
+	<line stroke="black" stroke-opacity="1" x1="123" y1="125" x2="178" y2="125" />
+	<line stroke="black" stroke-opacity="1" x1="123" y1="129" x2="178" y2="129" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="135">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="144">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="153">getForest()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="162">calculatedVariables()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="180" y="201" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="126" y="263" width="56" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="123" y="198" width="57" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="152" y="204">WorkingCircleColl</text>
+	<line stroke="black" stroke-opacity="1" x1="123" y1="208" x2="180" y2="208" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="214">forest</text>
+	<line stroke="black" stroke-opacity="1" x1="123" y1="218" x2="180" y2="218" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="224">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="233">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="242">setForest()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="251">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="125" y="260">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="216" y="347" width="2" height="164" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="152" y="509" width="66" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="149" y="344" width="67" height="165" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="183" y="350">Polygon</text>
+	<line stroke="black" stroke-opacity="1" x1="149" y1="354" x2="216" y2="354" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="360">items</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="369">coordinates</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="378">semplified</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="387">bounds</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" text-decoration="underline" x="151" y="396">sql</text>
+	<line stroke="black" stroke-opacity="1" x1="149" y1="400" x2="216" y2="400" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="406">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="415">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="424">setIdAv()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="433">appendItem()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="442">appendSemplifiedItem()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="451">insert()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" text-decoration="underline" x="151" y="460">error_handler()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="469">getVertexColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="478">getSemplifiedVertexColl()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="487">getCentroid()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="496">getArea()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="151" y="505">getPerimeter()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="288" y="418" width="2" height="22" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="250" y="438" width="40" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="247" y="415" width="41" height="23" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="268" y="421">PolygonItem</text>
+	<line stroke="black" stroke-opacity="1" x1="247" y1="425" x2="288" y2="425" />
+	<line stroke="black" stroke-opacity="1" x1="247" y1="429" x2="288" y2="429" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="249" y="435">setData()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="128" y="375" width="2" height="100" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="88" y="473" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="85" y="372" width="43" height="101" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="107" y="378">PolygonColl</text>
+	<line stroke="black" stroke-opacity="1" x1="85" y1="382" x2="128" y2="382" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" text-decoration="underline" x="87" y="388">sql</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="87" y="397">forest</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="87" y="406">data</text>
+	<line stroke="black" stroke-opacity="1" x1="85" y1="410" x2="128" y2="410" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="87" y="416">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="87" y="425">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="87" y="434">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="87" y="443">setForest()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" text-decoration="underline" x="87" y="452">error_handler()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="87" y="461">getCentroid()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="87" y="470">getArea()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="126" y1="65" x2="117" y2="62" />
+	<line stroke="black" stroke-opacity="1" x1="126" y1="65" x2="123" y2="73" />
+	<line stroke="black" stroke-opacity="1" x1="106" y1="76" x2="126" y2="65" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="261" y1="52" x2="253" y2="48" />
+	<line stroke="black" stroke-opacity="1" x1="261" y1="52" x2="257" y2="59" />
+	<line stroke="black" stroke-opacity="1" x1="246" y1="57" x2="261" y2="52" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="323" y1="61" x2="319" y2="53" />
+	<line stroke="black" stroke-opacity="1" x1="323" y1="61" x2="315" y2="64" />
+	<line stroke="black" stroke-opacity="1" x1="308" y1="56" x2="323" y2="61" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="308,56 315,52 319,59 311,63" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="187" y1="59" x2="182" y2="52" />
+	<line stroke="black" stroke-opacity="1" x1="187" y1="59" x2="180" y2="63" />
+	<line stroke="black" stroke-opacity="1" x1="181" y1="58" x2="187" y2="59" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="181,58 187,53 192,59 185,64" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="394" y1="56" x2="385" y2="53" />
+	<line stroke="black" stroke-opacity="1" x1="394" y1="56" x2="391" y2="64" />
+	<line stroke="black" stroke-opacity="1" x1="382" y1="62" x2="394" y2="56" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="311" y1="155" x2="319" y2="152" />
+	<line stroke="black" stroke-opacity="1" x1="311" y1="155" x2="308" y2="146" />
+	<line stroke="black" stroke-opacity="1" x1="323" y1="133" x2="311" y2="155" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="348" y1="242" x2="354" y2="236" />
+	<line stroke="black" stroke-opacity="1" x1="348" y1="242" x2="342" y2="235" />
+	<line stroke="black" stroke-opacity="1" x1="350" y1="138" x2="348" y2="242" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="457" y1="68" x2="454" y2="59" />
+	<line stroke="black" stroke-opacity="1" x1="457" y1="68" x2="448" y2="70" />
+	<line stroke="black" stroke-opacity="1" x1="441" y1="60" x2="457" y2="68" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="441,60 449,57 451,65 443,68" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="494" y1="223" x2="489" y2="216" />
+	<line stroke="black" stroke-opacity="1" x1="494" y1="223" x2="487" y2="227" />
+	<line stroke="black" stroke-opacity="1" x1="321" y1="193" x2="494" y2="223" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="321,193 327,188 332,195 325,199" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="401" y1="277" x2="395" y2="271" />
+	<line stroke="black" stroke-opacity="1" x1="401" y1="277" x2="395" y2="283" />
+	<line stroke="black" stroke-opacity="1" x1="371" y1="277" x2="401" y2="277" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="371,277 377,271 383,277 377,283" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="256" y1="163" x2="264" y2="163" />
+	<line stroke="black" stroke-opacity="1" x1="256" y1="163" x2="256" y2="154" />
+	<line stroke="black" stroke-opacity="1" x1="323" y1="101" x2="256" y2="163" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="233" y1="244" x2="239" y2="238" />
+	<line stroke="black" stroke-opacity="1" x1="233" y1="244" x2="227" y2="238" />
+	<line stroke="black" stroke-opacity="1" x1="233" y1="222" x2="233" y2="244" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="233,222 239,228 233,234 227,228" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="51" y1="213" x2="57" y2="207" />
+	<line stroke="black" stroke-opacity="1" x1="51" y1="213" x2="45" y2="206" />
+	<line stroke="black" stroke-opacity="1" x1="54" y1="188" x2="51" y2="213" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="51" y1="410" x2="57" y2="404" />
+	<line stroke="black" stroke-opacity="1" x1="51" y1="410" x2="45" y2="404" />
+	<line stroke="black" stroke-opacity="1" x1="51" y1="384" x2="51" y2="410" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="49" y1="303" x2="55" y2="297" />
+	<line stroke="black" stroke-opacity="1" x1="49" y1="303" x2="43" y2="297" />
+	<line stroke="black" stroke-opacity="1" x1="49" y1="282" x2="49" y2="303" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="49,282 55,288 49,294 43,288" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="562" y1="59" x2="553" y2="56" />
+	<line stroke="black" stroke-opacity="1" x1="562" y1="59" x2="559" y2="67" />
+	<line stroke="black" stroke-opacity="1" x1="544" y1="68" x2="562" y2="59" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="628" y1="63" x2="624" y2="55" />
+	<line stroke="black" stroke-opacity="1" x1="628" y1="63" x2="620" y2="66" />
+	<line stroke="black" stroke-opacity="1" x1="609" y1="57" x2="628" y2="63" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="609,57 616,53 620,60 612,64" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="703" y1="56" x2="695" y2="52" />
+	<line stroke="black" stroke-opacity="1" x1="703" y1="56" x2="699" y2="63" />
+	<line stroke="black" stroke-opacity="1" x1="687" y1="62" x2="703" y2="56" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="796" y1="117" x2="802" y2="111" />
+	<line stroke="black" stroke-opacity="1" x1="796" y1="117" x2="790" y2="111" />
+	<line stroke="black" stroke-opacity="1" x1="796" y1="102" x2="796" y2="117" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="767" y1="51" x2="761" y2="45" />
+	<line stroke="black" stroke-opacity="1" x1="767" y1="51" x2="761" y2="57" />
+	<line stroke="black" stroke-opacity="1" x1="750" y1="51" x2="767" y2="51" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="750,51 756,45 762,51 756,57" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="717" y1="203" x2="719" y2="195" />
+	<line stroke="black" stroke-opacity="1" x1="717" y1="203" x2="709" y2="200" />
+	<line stroke="black" stroke-opacity="1" x1="684" y1="132" x2="717" y2="203" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="751" y1="326" x2="759" y2="324" />
+	<line stroke="black" stroke-opacity="1" x1="751" y1="326" x2="749" y2="317" />
+	<line stroke="black" stroke-opacity="1" x1="771" y1="296" x2="751" y2="326" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="802" y1="327" x2="808" y2="321" />
+	<line stroke="black" stroke-opacity="1" x1="802" y1="327" x2="796" y2="321" />
+	<line stroke="black" stroke-opacity="1" x1="802" y1="307" x2="802" y2="327" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="771" y1="244" x2="765" y2="237" />
+	<line stroke="black" stroke-opacity="1" x1="771" y1="244" x2="764" y2="249" />
+	<line stroke="black" stroke-opacity="1" x1="757" y1="242" x2="771" y2="244" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="757,242 763,236 768,243 762,248" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="730" y1="490" x2="736" y2="484" />
+	<line stroke="black" stroke-opacity="1" x1="730" y1="490" x2="724" y2="484" />
+	<line stroke="black" stroke-opacity="1" x1="730" y1="395" x2="730" y2="490" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="730,395 736,401 730,407 724,401" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="802" y1="490" x2="808" y2="484" />
+	<line stroke="black" stroke-opacity="1" x1="802" y1="490" x2="796" y2="484" />
+	<line stroke="black" stroke-opacity="1" x1="802" y1="396" x2="802" y2="490" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="802,396 808,402 802,408 796,402" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="523" y1="494" x2="528" y2="487" />
+	<line stroke="black" stroke-opacity="1" x1="523" y1="494" x2="516" y2="488" />
+	<line stroke="black" stroke-opacity="1" x1="522" y1="470" x2="523" y2="494" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="522,470 528,475 522,481 516,476" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="621" y1="494" x2="627" y2="488" />
+	<line stroke="black" stroke-opacity="1" x1="621" y1="494" x2="615" y2="488" />
+	<line stroke="black" stroke-opacity="1" x1="621" y1="462" x2="621" y2="494" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="621,462 627,468 621,474 615,468" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="152" y1="169" x2="146" y2="175" />
+	<line stroke="black" stroke-opacity="1" x1="152" y1="169" x2="158" y2="175" />
+	<line stroke="black" stroke-opacity="1" x1="152" y1="197" x2="152" y2="169" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="152,197 146,191 152,185 158,191" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="99" y1="371" x2="104" y2="364" />
+	<line stroke="black" stroke-opacity="1" x1="99" y1="371" x2="92" y2="365" />
+	<line stroke="black" stroke-opacity="1" x1="74" y1="188" x2="99" y2="371" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="106" y1="163" x2="129" y2="197" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="106,163 114,164 112,172 104,171" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="152" y1="114" x2="152" y2="95" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="148" y1="425" x2="142" y2="419" />
+	<line stroke="black" stroke-opacity="1" x1="148" y1="425" x2="142" y2="431" />
+	<line stroke="black" stroke-opacity="1" x1="131" y1="425" x2="148" y2="425" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="131,425 137,419 143,425 137,431" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="190" y1="343" x2="196" y2="337" />
+	<line stroke="black" stroke-opacity="1" x1="190" y1="343" x2="184" y2="336" />
+	<line stroke="black" stroke-opacity="1" x1="210" y1="125" x2="190" y2="343" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="246" y1="428" x2="240" y2="422" />
+	<line stroke="black" stroke-opacity="1" x1="246" y1="428" x2="240" y2="434" />
+	<line stroke="black" stroke-opacity="1" x1="219" y1="428" x2="246" y2="428" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="219,428 225,422 231,428 225,434" />
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="323" y="328" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="283" y="390" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="280" y="325" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="302" y="331">B4Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="280" y1="335" x2="323" y2="335" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="282" y="341">b</text>
+	<line stroke="black" stroke-opacity="1" x1="280" y1="345" x2="323" y2="345" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="282" y="351">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="282" y="360">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="282" y="369">setFormB()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="282" y="378">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="282" y="387">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="750" y="136" width="2" height="32" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="716" y="166" width="36" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="713" y="133" width="37" height="33" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="732" y="139">G</text>
+	<line stroke="black" stroke-opacity="1" x1="713" y1="143" x2="750" y2="143" />
+	<line stroke="black" stroke-opacity="1" x1="713" y1="147" x2="750" y2="147" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="715" y="153">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="715" y="162">loadFromId()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="696" y="387" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="656" y="449" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="653" y="384" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="675" y="390">D1Coll</text>
+	<line stroke="black" stroke-opacity="1" x1="653" y1="394" x2="696" y2="394" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="655" y="400">d</text>
+	<line stroke="black" stroke-opacity="1" x1="653" y1="404" x2="696" y2="404" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="655" y="410">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="655" y="419">setFormD()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="655" y="428">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="655" y="437">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="655" y="446">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="692" y="183" width="2" height="76" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="650" y="257" width="44" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="647" y="180" width="45" height="77" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="670" y="186">DColl</text>
+	<line stroke="black" stroke-opacity="1" x1="647" y1="190" x2="692" y2="190" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="649" y="196">x</text>
+	<line stroke="black" stroke-opacity="1" x1="647" y1="200" x2="692" y2="200" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="649" y="206">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="649" y="215">setFormX()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="649" y="224">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="649" y="233">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="649" y="242">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="698" y="272" width="2" height="94" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="646" y="364" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="643" y="269" width="55" height="95" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="671" y="275">D</text>
+	<line stroke="black" stroke-opacity="1" x1="643" y1="279" x2="698" y2="279" />
+	<line stroke="black" stroke-opacity="1" x1="643" y1="283" x2="698" y2="283" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="289">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="298">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="307">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="316">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="325">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="334">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="343">getFormX()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="352">getCollector()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="645" y="361">getD1Coll()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="307" y1="324" x2="313" y2="319" />
+	<line stroke="black" stroke-opacity="1" x1="307" y1="324" x2="302" y2="317" />
+	<line stroke="black" stroke-opacity="1" x1="340" y1="138" x2="307" y2="324" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="355" y1="391" x2="353" y2="382" />
+	<line stroke="black" stroke-opacity="1" x1="355" y1="391" x2="346" y2="392" />
+	<line stroke="black" stroke-opacity="1" x1="326" y1="373" x2="355" y2="391" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="326,373 334,371 336,379 327,381" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="51" y1="509" x2="57" y2="503" />
+	<line stroke="black" stroke-opacity="1" x1="51" y1="509" x2="45" y2="503" />
+	<line stroke="black" stroke-opacity="1" x1="51" y1="479" x2="51" y2="509" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="51,479 57,485 51,491 45,485" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="753" y1="151" x2="759" y2="157" />
+	<line stroke="black" stroke-opacity="1" x1="753" y1="151" x2="759" y2="145" />
+	<line stroke="black" stroke-opacity="1" x1="772" y1="151" x2="753" y2="151" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="772,151 766,157 760,151 766,145" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="676" y1="492" x2="682" y2="486" />
+	<line stroke="black" stroke-opacity="1" x1="676" y1="492" x2="670" y2="486" />
+	<line stroke="black" stroke-opacity="1" x1="676" y1="452" x2="676" y2="492" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="676,452 682,458 676,464 670,458" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="666" y1="179" x2="671" y2="172" />
+	<line stroke="black" stroke-opacity="1" x1="666" y1="179" x2="659" y2="173" />
+	<line stroke="black" stroke-opacity="1" x1="662" y1="132" x2="666" y2="179" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="671" y1="268" x2="677" y2="262" />
+	<line stroke="black" stroke-opacity="1" x1="671" y1="268" x2="665" y2="262" />
+	<line stroke="black" stroke-opacity="1" x1="671" y1="260" x2="671" y2="268" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="671,260 677,266 671,272 665,266" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="673" y1="383" x2="679" y2="377" />
+	<line stroke="black" stroke-opacity="1" x1="673" y1="383" x2="667" y2="377" />
+	<line stroke="black" stroke-opacity="1" x1="673" y1="367" x2="673" y2="383" />
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="634" y="182" width="2" height="64" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="594" y="244" width="42" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="591" y="179" width="43" height="65" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="613" y="185">CColl</text>
+	<line stroke="black" stroke-opacity="1" x1="591" y1="189" x2="634" y2="189" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="593" y="195">x</text>
+	<line stroke="black" stroke-opacity="1" x1="591" y1="199" x2="634" y2="199" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="593" y="205">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="593" y="214">setFormX()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="593" y="223">customSelect()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="593" y="232">countAll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="593" y="241">addItem()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="638" y="269" width="2" height="104" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="586" y="371" width="54" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="583" y="266" width="55" height="105" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="611" y="272">C</text>
+	<line stroke="black" stroke-opacity="1" x1="583" y1="276" x2="638" y2="276" />
+	<line stroke="black" stroke-opacity="1" x1="583" y1="280" x2="638" y2="280" />
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="286">__construct()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="295">loadFromId()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="304">loadFromCodePart()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="313">calculatedVariables()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="322">update()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="331">delete()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="340">getFormX()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="349">getCollector()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="358">getC1Coll()</text>
+	<text font-family="Helvetica" font-size="5" fill="#000000" xml:space="preserve" x="585" y="367">getC2Coll()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="623" y1="178" x2="630" y2="174" />
+	<line stroke="black" stroke-opacity="1" x1="623" y1="178" x2="619" y2="170" />
+	<line stroke="black" stroke-opacity="1" x1="638" y1="132" x2="623" y2="178" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="612" y1="265" x2="618" y2="259" />
+	<line stroke="black" stroke-opacity="1" x1="612" y1="265" x2="606" y2="258" />
+	<line stroke="black" stroke-opacity="1" x1="613" y1="247" x2="612" y2="265" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="613,247 618,253 612,258 606,252" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="545" y1="403" x2="553" y2="401" />
+	<line stroke="black" stroke-opacity="1" x1="545" y1="403" x2="543" y2="394" />
+	<line stroke="black" stroke-opacity="1" x1="582" y1="356" x2="545" y2="403" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="618" y1="393" x2="623" y2="386" />
+	<line stroke="black" stroke-opacity="1" x1="618" y1="393" x2="611" y2="387" />
+	<line stroke="black" stroke-opacity="1" x1="617" y1="374" x2="618" y2="393" />
+</g>
+</svg>

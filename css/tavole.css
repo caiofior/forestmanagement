@@ -1,0 +1,60 @@
+/* 
+    Document   : tavole
+    Created on : 20-mar-2013, 15.10.02
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#content_tavole_list ul {
+    list-style-type: none;
+}
+#note_container {
+    margin-top: -120px;
+    margin-left: 270px;
+}
+#tipo_container {
+    width: 200px;
+}
+#forma_container {
+    margin-top: -150px;
+    margin-left: 270px;
+    width: 200px;
+}
+#biomassa_container {
+    margin-left: 270px;
+}
+#assortimenti_container {
+    margin-left: 270px;
+}
+#n_tariffa_container {
+    margin-top: 10px;
+}
+#var1_container {
+    width: 240px;
+    border-style: none;
+}
+#var2_container {
+    margin-top: -150px;
+    margin-left: 250px;
+    width: 240px;
+    border-style: none;
+}
+#d_min_container label,
+#d_max_container label,
+#classe_d_container label,
+#h_min_container label,
+#h_max_container label,
+#classe_h_container label{
+    display: block;
+    clear:left;
+    float: left;
+    width: 80px;
+}
+#d_min_container input,
+#d_max_container input,
+#classe_d_container input,
+#h_min_container input,
+#h_max_container input,
+#classe_h_container input{
+    float: left;
+}

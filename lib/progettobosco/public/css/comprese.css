@@ -1,0 +1,15 @@
+/* 
+    Document   : comprese
+    Created on : 30-apr-2013, 12.21.23
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#content_comprese_listall {
+    width: 350px;
+    float: left;
+}
+#content_comprese_listselected {
+    width: 350px;
+    float: left; 
+}

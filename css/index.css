@@ -1,0 +1,35 @@
+/* 
+    Document   : index
+    Created on : 16-gen-2013, 12.09.00
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.index_menu {
+    list-style: none;
+    margin-left: 0px;
+    font-size: 24px;
+}
+.index_menu a{
+    padding-left: 40px;
+    
+}
+.index_menu li{
+    margin-bottom: 15px;
+}
+.index_menu .bosco {
+    background-image: url(../images/menu/bosco.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.index_menu .user_admin {
+    background-image: url(../images/menu/adminusers.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.index_menu .cubatura {
+    background-image: url(../images/menu/cubatura.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}

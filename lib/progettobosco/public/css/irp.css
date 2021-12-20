@@ -1,0 +1,75 @@
+/* 
+    Document   : rilievidendrometrici
+    Created on : 25-mar-2013, 15.10.52
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset > div {
+    width: 250px;
+}
+fieldset div label{
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+input:not([type='radio']){
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+}
+input[type='radio'] {
+   background: transparent;
+   border: 0;
+}
+label.double {
+    height: 40px;
+}
+fieldset p {
+    border-style: none!important;
+}
+#cod_part_container {
+   margin-top: -40px;
+   margin-left: 300px;
+}
+#data_container {
+   margin-left: 500px;
+}
+#fatt_num_container {
+   width: 120px;
+   margin-top: -40px;
+   margin-left: 300px;
+}
+#codiope_container {
+   margin-top: -40px;
+   margin-left: 450px;
+}
+#d_ogni_container {
+   width: 300px;
+   margin-left: 450px;
+}
+
+#ird_table_container {
+   margin-top: 100px;
+   width: 500px;
+}
+#ird_table_container > div {
+    width: 500px;
+}
+#ird_table_container > div > div {
+    clear: left;
+}
+#ird_table_container > div > div > span > div{
+   width: 50px;
+   float:left;
+}
+#ird_table_container > div > div > span > div > select{
+   width: 50px;
+}
+#note_container {
+   margin-top: 50px;
+   margin-left: 520px;
+}
+#content_rilievidendrometrici_list ul {
+    list-style-type: none;
+}

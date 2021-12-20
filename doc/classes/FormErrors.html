@@ -1,0 +1,267 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \FormErrors</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Namespaces</a></li>
+<li><a href="../namespaces/forest.html"><i class="icon-th"></i> forest</a></li>
+<li><a href="../namespaces/global.html"><i class="icon-th"></i> global</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public "><a href="#method_addError" title="addError :: Adds an error to le list"><span class="description">Adds an error to le list</span><pre>addError()</pre></a></li>
+<li class="method public "><a href="#method_count" title="count :: Counts all errors;"><span class="description">Counts all errors;</span><pre>count()</pre></a></li>
+<li class="method public "><a href="#method_getHtmlError" title="getHtmlError :: Gets html formatted errors"><span class="description">Gets html formatted errors</span><pre>getHtmlError()</pre></a></li>
+<li class="method public "><a href="#method_getJsonError" title="getJsonError :: Creates a json error message"><span class="description">Creates a json error message</span><pre>getJsonError()</pre></a></li>
+<li class="method public "><a href="#method_getMessages" title="getMessages :: Return control field name and messages"><span class="description">Return control field name and messages</span><pre>getMessages()</pre></a></li>
+<li class="method public "><a href="#method_setOkMessage" title="setOkMessage :: Sets the default ok message"><span class="description">Sets the default ok message</span><pre>setOkMessage()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties
+                    <ul></ul>
+</li>
+<li class="nav-header private">» Private
+                    <ul>
+<li class="property private "><a href="#property_default_messages" title="$default_messages :: Default error assertions"><span class="description"></span><pre>$default_messages</pre></a></li>
+<li class="property private "><a href="#property_errors" title="$errors :: Errors"><span class="description"></span><pre>$errors</pre></a></li>
+<li class="property private "><a href="#property_okMessage" title="$okMessage :: Default Ok message"><span class="description"></span><pre>$okMessage</pre></a></li>
+</ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-constant"></i> Constants
+                    <ul>
+<li class="constant  "><a href="#constant_custom" title="custom :: Custom error"><span class="description">Custom error</span><pre>custom</pre></a></li>
+<li class="constant  "><a href="#constant_required" title="required :: The variable is required"><span class="description">The variable is required</span><pre>required</pre></a></li>
+<li class="constant  "><a href="#constant_valid_bool" title="valid_bool :: The url is invalid"><span class="description">The url is invalid</span><pre>valid_bool</pre></a></li>
+<li class="constant  "><a href="#constant_valid_email" title="valid_email :: The email is invalid"><span class="description">The email is invalid</span><pre>valid_email</pre></a></li>
+<li class="constant  "><a href="#constant_valid_float" title="valid_float :: The url is invalid"><span class="description">The url is invalid</span><pre>valid_float</pre></a></li>
+<li class="constant  "><a href="#constant_valid_int" title="valid_int :: The url is invalid"><span class="description">The url is invalid</span><pre>valid_int</pre></a></li>
+<li class="constant  "><a href="#constant_valid_url" title="valid_url :: The url is invalid"><span class="description">The url is invalid</span><pre>valid_url</pre></a></li>
+<li class="constant  "><a href="#constant_wrong" title="wrong :: The data is wrong"><span class="description">The data is wrong</span><pre>wrong</pre></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8">
+<a id="\FormErrors"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/FormErrors.html">FormErrors</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">Manages form errors</p>
+<div class="details">
+<div class="long_description"><p>Manages form errors</p></div>
+<table class="table table-bordered">
+<tr>
+<th>author</th>
+<td><a href="mailto:caiofior@gmail.com">Claudio Fior</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>CRA</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_addError"></a><div class="element clickable method public method_addError" data-toggle="collapse" data-target=".method_addError .collapse">
+<h2>Adds an error to le list</h2>
+<pre>addError(int $kind, string $name, string $message, string $sex) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$kind</h4>
+<code>int</code><p>is a constant of this class</p></div>
+<div class="subelement argument">
+<h4>$name</h4>
+<code>string</code><p>field control name</p></div>
+<div class="subelement argument">
+<h4>$message</h4>
+<code>string</code><p>message, if custom all the message must be set</p></div>
+<div class="subelement argument">
+<h4>$sex</h4>
+<code>string</code><p>sex of the word (m or f)</p>
+</div>
+</div></div>
+</div>
+<a id="method_count"></a><div class="element clickable method public method_count" data-toggle="collapse" data-target=".method_count .collapse">
+<h2>Counts all errors;</h2>
+<pre>count() : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>int</code></div>
+</div></div>
+</div>
+<a id="method_getHtmlError"></a><div class="element clickable method public method_getHtmlError" data-toggle="collapse" data-target=".method_getHtmlError .collapse">
+<h2>Gets html formatted errors</h2>
+<pre>getHtmlError() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_getJsonError"></a><div class="element clickable method public method_getJsonError" data-toggle="collapse" data-target=".method_getJsonError .collapse">
+<h2>Creates a json error message</h2>
+<pre>getJsonError() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_getMessages"></a><div class="element clickable method public method_getMessages" data-toggle="collapse" data-target=".method_getMessages .collapse">
+<h2>Return control field name and messages</h2>
+<pre>getMessages() : array[]</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array[]</code></div>
+</div></div>
+</div>
+<a id="method_setOkMessage"></a><div class="element clickable method public method_setOkMessage" data-toggle="collapse" data-target=".method_setOkMessage .collapse">
+<h2>Sets the default ok message</h2>
+<pre>setOkMessage(\variant $okmessage) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$okmessage</h4>
+<code>\variant</code>
+</div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a id="property_default_messages"> </a><div class="element clickable property private property_default_messages" data-toggle="collapse" data-target=".property_default_messages .collapse">
+<h2></h2>
+<pre>$default_messages : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_errors"> </a><div class="element clickable property private property_errors" data-toggle="collapse" data-target=".property_errors .collapse">
+<h2></h2>
+<pre>$errors : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_okMessage"> </a><div class="element clickable property private property_okMessage" data-toggle="collapse" data-target=".property_okMessage .collapse">
+<h2></h2>
+<pre>$okMessage : \variant</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<h3>
+<i class="icon-custom icon-constant"></i> Constants</h3>
+<a id="constant_custom"> </a><div class="element clickable constant  constant_custom" data-toggle="collapse" data-target=".constant_custom .collapse">
+<h2>Custom error</h2>
+<pre>custom </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_required"> </a><div class="element clickable constant  constant_required" data-toggle="collapse" data-target=".constant_required .collapse">
+<h2>The variable is required</h2>
+<pre>required </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_valid_bool"> </a><div class="element clickable constant  constant_valid_bool" data-toggle="collapse" data-target=".constant_valid_bool .collapse">
+<h2>The url is invalid</h2>
+<pre>valid_bool </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_valid_email"> </a><div class="element clickable constant  constant_valid_email" data-toggle="collapse" data-target=".constant_valid_email .collapse">
+<h2>The email is invalid</h2>
+<pre>valid_email </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_valid_float"> </a><div class="element clickable constant  constant_valid_float" data-toggle="collapse" data-target=".constant_valid_float .collapse">
+<h2>The url is invalid</h2>
+<pre>valid_float </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_valid_int"> </a><div class="element clickable constant  constant_valid_int" data-toggle="collapse" data-target=".constant_valid_int .collapse">
+<h2>The url is invalid</h2>
+<pre>valid_int </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_valid_url"> </a><div class="element clickable constant  constant_valid_url" data-toggle="collapse" data-target=".constant_valid_url .collapse">
+<h2>The url is invalid</h2>
+<pre>valid_url </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_wrong"> </a><div class="element clickable constant  constant_wrong" data-toggle="collapse" data-target=".constant_wrong .collapse">
+<h2>The data is wrong</h2>
+<pre>wrong </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-06-25T11:55:59+02:00.<br></footer></div>
+</div>
+</body>
+</html>

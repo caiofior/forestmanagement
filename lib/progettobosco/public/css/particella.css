@@ -1,0 +1,31 @@
+/* 
+    Document   : particella
+    Created on : 29-gen-2013, 14.31.40
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#content_bosco_forestcompartmentlist ul {
+    list-style-type: none;
+}
+
+#formtab span{
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    background-color: #808080;
+    color: #88881B;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 26px;
+}
+#formtab span.active{
+    background-color: #ffffff;
+}
+#tabContent h3{
+    color: #325D27;
+    font-weight: bold;
+    font-size: 15px;
+}

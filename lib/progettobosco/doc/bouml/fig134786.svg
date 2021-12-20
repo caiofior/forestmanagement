@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="920" height="881" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="260" y="239" width="3" height="281" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="92" y="517" width="171" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="88" y="235" width="172" height="282" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="174" y="246">User</text>
+	<line stroke="black" stroke-opacity="1" x1="88" y1="255" x2="260" y2="255" />
+	<line stroke="black" stroke-opacity="1" x1="88" y1="263" x2="260" y2="263" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="274">__construct()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="292">loadFromId()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="310">loadFromUsername()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="328">loadFromConformationCode()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="346">insert()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="364">update()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="382">getProfile()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" x="92" y="400">getAuthAdapter()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="418">checkPassword()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="436">generatePassword()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="454">setData()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="472">getForestColl()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="490">isUserForestAdmin()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="92" y="508">isAdmin()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="142" y="55" width="3" height="101" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="68" y="153" width="77" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="64" y="51" width="78" height="102" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="103" y="62">Profile</text>
+	<line stroke="black" stroke-opacity="1" x1="64" y1="71" x2="142" y2="71" />
+	<line stroke="black" stroke-opacity="1" x1="64" y1="79" x2="142" y2="79" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="68" y="90">__construct()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="68" y="108">loadFromId()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="68" y="126">insert()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="68" y="144">update()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="317" y="54" width="3" height="113" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="175" y="164" width="145" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="171" y="50" width="146" height="114" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="244" y="61">Log</text>
+	<line stroke="black" stroke-opacity="1" x1="171" y1="70" x2="317" y2="70" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="175" y="81">CLEANUP_LOG_PG</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="175" y="99">CLEANUP_LOG_MYSQL</text>
+	<line stroke="black" stroke-opacity="1" x1="171" y1="108" x2="317" y2="108" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="175" y="119">__construct()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="175" y="137">loadFromId()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="175" y="155">insert()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="610" y="203" width="3" height="167" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="516" y="367" width="97" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="512" y="199" width="98" height="168" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="561" y="210">ForestColl</text>
+	<line stroke="black" stroke-opacity="1" x1="512" y1="219" x2="610" y2="219" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="516" y="230">user</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="516" y="248">filterByUser</text>
+	<line stroke="black" stroke-opacity="1" x1="512" y1="257" x2="610" y2="257" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="516" y="268">__construct()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="516" y="286">customSelect()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="516" y="304">countAll()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="516" y="322">getRegionColl()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="516" y="340">setUserForests()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="516" y="358">setFilterByUser()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="830" y="113" width="3" height="347" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="656" y="457" width="177" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="652" y="109" width="178" height="348" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="741" y="120">Forest</text>
+	<line stroke="black" stroke-opacity="1" x1="652" y1="129" x2="830" y2="129" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="140">workingcircle</text>
+	<line stroke="black" stroke-opacity="1" x1="652" y1="149" x2="830" y2="149" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="160">__construct()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="178">loadFromId()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="196">loadFromCode()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="214">setData()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="232">addOwner()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="250">removeOwner()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="268">addForestCompartmentCount()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="286">getAColl()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="304">getAttributeColl()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="322">getTColl()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="340">getRegion()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="358">surfaceRecalc()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="376">surfaceVerifyCalc()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="394">getEColl()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="412">getWorkingCircleColl()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="430">insert()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="656" y="448">setWorkingCircle()</text>
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="470" y="22" width="174" height="19" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="470" y="41" width="438" height="589" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="689" y="53">forest</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="244" y="597" width="3" height="47" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="166" y="641" width="81" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="162" y="593" width="82" height="48" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="203" y="604">Template</text>
+	<line stroke="black" stroke-opacity="1" x1="162" y1="613" x2="244" y2="613" />
+	<line stroke="black" stroke-opacity="1" x1="162" y1="621" x2="244" y2="621" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="166" y="632">renderBlock()</text>
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="36,575 142,575 142,586 130,598 36,598 36,575" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="36" y="575" width="373" height="79" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="83" y="591">rendering views</text>
+	<line stroke="black" stroke-opacity="1" x1="36" y1="598" x2="130" y2="598" />
+	<line stroke="black" stroke-opacity="1" x1="130" y1="598" x2="142" y2="586" />
+	<line stroke="black" stroke-opacity="1" x1="142" y1="586" x2="142" y2="575" />
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="41,685 171,685 171,696 159,708 41,708 41,685" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="41" y="685" width="368" height="184" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="100" y="701">loading components</text>
+	<line stroke="black" stroke-opacity="1" x1="41" y1="708" x2="159" y2="708" />
+	<line stroke="black" stroke-opacity="1" x1="159" y1="708" x2="171" y2="696" />
+	<line stroke="black" stroke-opacity="1" x1="171" y1="696" x2="171" y2="685" />
+</g>
+<g>
+	<polygon fill="#c0ffff" stroke="black" stroke-opacity="1" points="508,700 800,700 800,710 810,710 810,806 508,806 508,700" />
+	<line stroke="black" stroke-opacity="1" x1="800" y1="700" x2="810" y2="710" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="518" y="726">The autoloader main class loads the common files</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="518" y="743">and recive an Autoloader module class for the class</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="518" y="760">required files and othe data</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="118" y1="157" x2="113" y2="164" />
+	<line stroke="black" stroke-opacity="1" x1="118" y1="157" x2="125" y2="161" />
+	<line stroke="black" stroke-opacity="1" x1="137" y1="234" x2="118" y2="157" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="229" y1="168" x2="221" y2="172" />
+	<line stroke="black" stroke-opacity="1" x1="229" y1="168" x2="233" y2="175" />
+	<line stroke="black" stroke-opacity="1" x1="212" y1="234" x2="229" y2="168" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="511" y1="295" x2="503" y2="290" />
+	<line stroke="black" stroke-opacity="1" x1="511" y1="295" x2="506" y2="302" />
+	<line stroke="black" stroke-opacity="1" x1="264" y1="355" x2="511" y2="295" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="651" y1="285" x2="645" y2="279" />
+	<line stroke="black" stroke-opacity="1" x1="651" y1="285" x2="645" y2="291" />
+	<line stroke="black" stroke-opacity="1" x1="614" y1="285" x2="651" y2="285" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="614,285 620,279 626,285 620,291" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="321" y1="135" x2="651" y2="251" />
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="30,18 153,18 153,29 141,41 30,41 30,18" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="30" y="18" width="378" height="526" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="86" y="34">user administration</text>
+	<line stroke="black" stroke-opacity="1" x1="30" y1="41" x2="141" y2="41" />
+	<line stroke="black" stroke-opacity="1" x1="141" y1="41" x2="153" y2="29" />
+	<line stroke="black" stroke-opacity="1" x1="153" y1="29" x2="153" y2="18" />
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="284" y="762" width="3" height="95" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="172" y="854" width="115" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="168" y="758" width="116" height="96" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="226" y="769">Autoloader</text>
+	<line stroke="black" stroke-opacity="1" x1="168" y1="778" x2="284" y2="778" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" x="172" y="789">instance</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" x="172" y="807">module_files</text>
+	<line stroke="black" stroke-opacity="1" x1="168" y1="816" x2="284" y2="816" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" x="172" y="827">getInstance()</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" x="172" y="845">loadRequiredFiles()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="776" y="513" width="3" height="91" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="612" y="601" width="167" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="608" y="509" width="168" height="92" />
+	<line stroke="black" stroke-opacity="1" x1="616" y1="509" x2="616" y2="601" />
+	<line stroke="black" stroke-opacity="1" x1="768" y1="509" x2="768" y2="601" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="692" y="520">Autoloader</text>
+	<line stroke="black" stroke-opacity="1" x1="616" y1="529" x2="768" y2="529" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="620" y="540">dir</text>
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="620" y="558">files</text>
+	<line stroke="black" stroke-opacity="1" x1="616" y1="567" x2="768" y2="567" />
+	<text font-family="Helvetica" font-size="9" fill="#000000" xml:space="preserve" x="620" y="578">__contruct()</text>
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="607" y1="601" x2="288" y2="773" />
+</g>
+</svg>

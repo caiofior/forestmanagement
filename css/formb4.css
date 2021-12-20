@@ -1,0 +1,378 @@
+/* 
+    Document   : formb4
+    Created on : 14-mar-2013, 8.36.30
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #325D27;
+    position: relative;
+    display: block;
+    *margin-top: 12px;
+    *margin-bottom: 0px;
+    -webkit-padding-before: 7.5px;
+    -webkit-padding-start: 0px;
+}
+legend {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+h4 {
+    position: relative;
+    color: #010080!important;
+    background-color: #ffffff;
+    font-size: 12px!important;
+    margin: 0px!important;
+    padding: 0px;
+    
+}
+fieldset > div {
+    position:absolute;
+}
+fieldset > div > label {
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+label.double {
+    height: 40px;
+}
+label.triple {
+    height: 60px;
+}
+select {
+   margin: 0px !important;
+   padding: 0px !important;
+   height: 17px;
+   width: 80%;
+}
+input:not([type='radio']) {
+   width: 80%;
+   margin: 0px ;
+   padding: 0px;
+}
+input[type='radio'],input[type='checkbox'] {
+   background: transparent;
+   border: 0;
+}
+.scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+/**
+* General part
+**/
+#general {
+    left: 0px;
+    top: 0px;
+    height: 160px;
+    border-style: none;
+}
+#regione_container {
+    width: 500px;
+    top:4px;
+    left:4px;
+}
+#bosco_container {
+    width: 250px;
+    top:58px;
+    left:4px;
+}
+#note_1 {
+    width: 350px;
+    top:82px;
+    left:4px;
+}
+#cod_part_container {
+    width: 200px;
+    top:16px;
+    left: 620px; 
+}
+#t_container {
+    width: 200px;
+    top:76px;
+    left: 620px; 
+}
+/**
+* Container of U blocks
+**/
+#ucontainer {
+    left: 320px;
+    top: 45px;
+    width: 250px;
+    height: 80px;
+}
+#ucontainer input {
+    float:left;
+    display: block;
+}
+#ucontainer span {
+    display: block;
+    float:left;
+    width: 240px;
+    *width: 235px;
+    word-break: break-all;
+}
+#specific_data {
+    border-style: none;
+}
+#vert_container {
+    width: 200px;
+    
+}
+#note_2 {
+    margin-top: 10px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#ce_min2_container {
+    margin-top: 10px;
+}
+#h_min2_container {
+    margin-top: 10px;
+    left: 230px;
+}
+/**
+* Arbustive container
+*/
+#arbustivecontainer {
+    margin-top: 60px;
+     width: 200px;
+    height: 220px;
+}
+#newarbustive {
+    top: 60px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab4_arbustive {
+    top: 104px;
+    left: 4px;
+    width: 200px;
+}
+#content_schedab4_arbustive  div,
+#newarbustive  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab4_arbustive div span,
+#newarbustive div span{
+    float:left;
+    width: 100px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#arbustivecontainer .scrollcontrols span{
+    width: 65px;
+}
+#note_3 {
+    margin-top: 10px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#ce_mag2_container {
+    margin-top: 10px;
+}
+#h_mag2_container {
+    margin-top: 10px;
+    left: 230px;
+}
+/**
+* Arboree container
+*/
+#arboreecontainer {
+    margin-top: 60px;
+    height: 200px;
+    width: 250px;
+}
+#newarboree {
+    top: 44px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab4_arboree {
+    top: 104px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab4_arboree  div,
+#newarboree  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab4_arboree  div span,
+#newarboree div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#arboreecontainer .scrollcontrols span{
+    width: 65px;
+}
+#motivo1_container {
+   margin-top: 10px;
+   width: 600px;
+}
+#motivo1_container input,
+#motivo1_container span{
+    float:left;
+    display: block;
+}
+#motivo1_container span {
+    width: 90px;
+    *width: 85px;
+    word-break: break-all;
+}
+#motivo2_container {
+    margin-top: -20px;
+    margin-left: 50px;
+}
+/**
+* Erbacee container
+*/
+#erbaceecontainer {
+    margin-top: 10px;
+    width: 200px;
+    height: 220px;
+}
+#newerbacee {
+    top: 44px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab4_erbacee {
+    top: 104px;
+    left: 4px;
+    width: 200px;
+}
+#content_schedab4_erbacee  div,
+#newerbacee  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab4_erbacee  div span,
+#newerbacee div span {
+    float:left;
+    width: 60px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#erbaceecontainer .scrollcontrols span{
+    width: 65px;
+}
+#se_container {
+   top: -220px;
+   left: 240px;
+   width: 100px;
+}
+#int2_container {
+    margin-top: -180px;
+}
+#int3_container {
+    margin-top: -180px;
+    left: 300px;
+}
+#f_container {
+    margin-top: -130px;
+}
+#g_container {
+    margin-top: -80px;
+}
+#g_container input,
+#g_container span{
+    float:left;
+    display: block;
+}
+#g_container span {
+    width: 160px;
+    *width: 155px;
+    word-break: break-all;
+}
+#p2_container {
+    margin-top: 10px;
+}
+#p3_container {
+    margin-top: 10px;
+    left: 300px;
+}
+#p4_container {
+    margin-top: 10px;
+    left: 600px;
+}
+#g1_container {
+    margin-top: 60px;
+    padding-top: 20px;
+    height: 80px;
+}
+#g1arrow_right {
+    position: relative;
+    top: -25px;
+    left: 450px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+#sub_viab_container {
+    position: relative;
+    top: -90px;
+    left: 500px;
+    border-style: none;
+}
+/**
+* notes container
+*/
+#notescontainer {
+    width: 750px;
+    height: 310px;
+}
+
+#newnote {
+    top: 24px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedab4_note {
+    top: 124px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedab4_note  div,
+#newnote  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab4_note div span,
+#newnote div span {
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#notescontainer .scrollcontrols span{
+    width: 65px;
+}

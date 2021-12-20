@@ -1,0 +1,440 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \forest\mediator\ForestCompartmentDescription</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Namespaces</a></li>
+<li><a href="../namespaces/forest.html"><i class="icon-th"></i> forest</a></li>
+<li><a href="../namespaces/global.html"><i class="icon-th"></i> global</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public inherited"><a href="#method___construct" title="__construct :: Intantiates the Description"><span class="description">Intantiates the Description</span><pre>__construct()</pre></a></li>
+<li class="method public "><a href="#method_generateDescription" title="generateDescription :: Generates description"><span class="description">Generates description</span><pre>generateDescription()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header protected">» Protected
+                    <ul>
+<li class="method protected inherited"><a href="#method_addIssue" title="addIssue :: Adds a new issue"><span class="description">Adds a new issue</span><pre>addIssue()</pre></a></li>
+<li class="method protected inherited"><a href="#method_getNote" title="getNote :: get the note associated with a field"><span class="description">get the note associated with a field</span><pre>getNote()</pre></a></li>
+<li class="method protected inherited"><a href="#method_getValue" title="getValue :: Gets the associated label of a control"><span class="description">Gets the associated label of a control</span><pre>getValue()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header private">» Private
+                    <ul>
+<li class="method private inherited"><a href="#method_a_a" title="a_a :: Terrain assets"><span class="description">Terrain assets</span><pre>a_a()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_ap" title="a_ap :: Main altitude"><span class="description">Main altitude</span><pre>a_ap()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_c" title="a_c :: Temporary factors"><span class="description">Temporary factors</span><pre>a_c()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_e1" title="a_e1 :: Exposition"><span class="description">Exposition</span><pre>a_e1()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_f" title="a_f :: Phitosanitary conditions"><span class="description">Phitosanitary conditions</span><pre>a_f()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_i" title="a_i :: Improductives"><span class="description">Improductives</span><pre>a_i()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_m" title="a_m :: Manufacts"><span class="description">Manufacts</span><pre>a_m()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_o" title="a_o :: Obstacles"><span class="description">Obstacles</span><pre>a_o()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_p" title="a_p :: Graze"><span class="description">Graze</span><pre>a_p()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_pf1" title="a_pf1 :: Phisiographic position"><span class="description">Phisiographic position</span><pre>a_pf1()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_pp" title="a_pp :: Main slope"><span class="description">Main slope</span><pre>a_pp()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_r" title="a_r :: Terrain water"><span class="description">Terrain water</span><pre>a_r()</pre></a></li>
+<li class="method private inherited"><a href="#method_a_v" title="a_v :: Viability"><span class="description">Viability</span><pre>a_v()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties
+                    <ul></ul>
+</li>
+<li class="nav-header protected">» Protected
+                    <ul>
+<li class="property protected inherited"><a href="#property_a" title="$a :: Reference to Form a Object"><span class="description"></span><pre>$a</pre></a></li>
+<li class="property protected "><a href="#property_issues" title="$issues :: Issues during description elaboration"><span class="description"></span><pre>$issues</pre></a></li>
+<li class="property protected "><a href="#property_t" title="$t :: Text lines composing the description"><span class="description"></span><pre>$t</pre></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8">
+<a id="\forest\mediator\ForestCompartmentDescription"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/forest.html">forest</a></li>
+<li>
+<span class="divider">\</span><a href="../namespaces/forest.mediator.html">mediator</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/forest.mediator.ForestCompartmentDescription.html">ForestCompartmentDescription</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">Manages Forest Compartment Description</p>
+<div class="details">
+<div class="long_description"><p>Manages Forest Compartment Description</p></div>
+<table class="table table-bordered">
+<tr>
+<th>author</th>
+<td><a href="mailto:caiofior@gmail.com">Claudio Fior</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>CRA</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method___construct"></a><div class="element clickable method public method___construct" data-toggle="collapse" data-target=".method___construct .collapse">
+<h2>Intantiates the Description</h2>
+<pre>__construct(\forest\entity\A $a) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::__construct()</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$a</h4>
+<code><a href="../classes/forest.entity.A.html">\forest\entity\A</a></code>
+</div>
+</div></div>
+</div>
+<a id="method_generateDescription"></a><div class="element clickable method public method_generateDescription" data-toggle="collapse" data-target=".method_generateDescription .collapse">
+<h2>Generates description</h2>
+<pre>generateDescription() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_addIssue"></a><div class="element clickable method protected method_addIssue" data-toggle="collapse" data-target=".method_addIssue .collapse">
+<h2>Adds a new issue</h2>
+<pre>addIssue(string $form, string $field, string $text) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\forest\mediator\Description::addIssue()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::addIssue()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$form</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$field</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$text</h4>
+<code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_getNote"></a><div class="element clickable method protected method_getNote" data-toggle="collapse" data-target=".method_getNote .collapse">
+<h2>get the note associated with a field</h2>
+<pre>getNote(string $form, string $field) : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\forest\mediator\Description::getNote()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::getNote()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$form</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$field</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getValue"></a><div class="element clickable method protected method_getValue" data-toggle="collapse" data-target=".method_getValue .collapse">
+<h2>Gets the associated label of a control</h2>
+<pre>getValue(string $form, string $field, mixed $codice) : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\forest\mediator\Description::getValue()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::getValue()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$form</h4>
+<code>string</code><p>form name</p></div>
+<div class="subelement argument">
+<h4>$field</h4>
+<code>string</code><p>field name</p></div>
+<div class="subelement argument">
+<h4>$codice</h4>
+<code>mixed</code><p>code value</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code>associated label</div>
+</div></div>
+</div>
+<a id="method_a_a"></a><div class="element clickable method private method_a_a" data-toggle="collapse" data-target=".method_a_a .collapse">
+<h2>Terrain assets</h2>
+<pre>a_a() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_a()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_ap"></a><div class="element clickable method private method_a_ap" data-toggle="collapse" data-target=".method_a_ap .collapse">
+<h2>Main altitude</h2>
+<pre>a_ap() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_ap()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_c"></a><div class="element clickable method private method_a_c" data-toggle="collapse" data-target=".method_a_c .collapse">
+<h2>Temporary factors</h2>
+<pre>a_c() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_c()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_e1"></a><div class="element clickable method private method_a_e1" data-toggle="collapse" data-target=".method_a_e1 .collapse">
+<h2>Exposition</h2>
+<pre>a_e1() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_e1()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_f"></a><div class="element clickable method private method_a_f" data-toggle="collapse" data-target=".method_a_f .collapse">
+<h2>Phitosanitary conditions</h2>
+<pre>a_f() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_f()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_i"></a><div class="element clickable method private method_a_i" data-toggle="collapse" data-target=".method_a_i .collapse">
+<h2>Improductives</h2>
+<pre>a_i() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_i()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_m"></a><div class="element clickable method private method_a_m" data-toggle="collapse" data-target=".method_a_m .collapse">
+<h2>Manufacts</h2>
+<pre>a_m() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_m()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_o"></a><div class="element clickable method private method_a_o" data-toggle="collapse" data-target=".method_a_o .collapse">
+<h2>Obstacles</h2>
+<pre>a_o() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_o()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_p"></a><div class="element clickable method private method_a_p" data-toggle="collapse" data-target=".method_a_p .collapse">
+<h2>Graze</h2>
+<pre>a_p() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_p()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_pf1"></a><div class="element clickable method private method_a_pf1" data-toggle="collapse" data-target=".method_a_pf1 .collapse">
+<h2>Phisiographic position</h2>
+<pre>a_pf1() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_pf1()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_pp"></a><div class="element clickable method private method_a_pp" data-toggle="collapse" data-target=".method_a_pp .collapse">
+<h2>Main slope</h2>
+<pre>a_pp() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_pp()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_r"></a><div class="element clickable method private method_a_r" data-toggle="collapse" data-target=".method_a_r .collapse">
+<h2>Terrain water</h2>
+<pre>a_r() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_r()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_a_v"></a><div class="element clickable method private method_a_v" data-toggle="collapse" data-target=".method_a_v .collapse">
+<h2>Viability</h2>
+<pre>a_v() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::a_v()</td>
+</tr></table>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a id="property_a"> </a><div class="element clickable property protected property_a" data-toggle="collapse" data-target=".property_a .collapse">
+<h2></h2>
+<pre>$a : <a href="../classes/forest.entity.A.html">\forest\entity\A</a></pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\forest\mediator\FormADescription::$$a</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property_issues"> </a><div class="element clickable property protected property_issues" data-toggle="collapse" data-target=".property_issues .collapse">
+<h2></h2>
+<pre>$issues : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_t"> </a><div class="element clickable property protected property_t" data-toggle="collapse" data-target=".property_t .collapse">
+<h2></h2>
+<pre>$t : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-06-25T11:55:56+02:00.<br></footer></div>
+</div>
+</body>
+</html>

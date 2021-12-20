@@ -1,0 +1,11 @@
+/* 
+    Document   : cartografia
+    Created on : 22-mag-2013, 10.57.27
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#map-canvas {
+    width: 600px;
+    height: 400px;
+}

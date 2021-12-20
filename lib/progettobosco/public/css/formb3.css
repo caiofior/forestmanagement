@@ -1,0 +1,746 @@
+/* 
+    Document   : formb3
+    Created on : 11-mar-2013, 17.01.33
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #325D27;
+    position: relative;
+    display: block;
+    *margin-top: 12px;
+    *margin-bottom: 0px;
+    -webkit-padding-before: 7.5px;
+    -webkit-padding-start: 0px;
+}
+legend {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+h4 {
+    position: relative;
+    color: #010080!important;
+    background-color: #ffffff;
+    font-size: 12px!important;
+    margin: 0px!important;
+    padding: 0px;
+    
+}
+fieldset > div {
+    position:absolute;
+}
+fieldset > div > label {
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+label.double {
+    height: 40px;
+}
+label.triple {
+    height: 60px;
+}
+select {
+   margin: 0px !important;
+   padding: 0px !important;
+   height: 17px;
+   width: 80%;
+}
+input:not([type='radio']) {
+   width: 80%;
+   margin: 0px ;
+   padding: 0px;
+}
+input[type='radio'],input[type='checkbox'] {
+   background: transparent;
+   border: 0;
+}
+.scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+#formB3 {
+    height: 3000px;
+}
+/**
+* General part
+**/
+#general {
+    left: 0px;
+    top: 0px;
+    height: 0px;
+    border-style: none;
+}
+#regione_container {
+    width: 500px;
+    top:4px;
+    left:4px;
+}
+#bosco_container {
+    width: 250px;
+    top:58px;
+    left:4px;
+}
+#note_1 {
+    width: 350px;
+    top:82px;
+    left:4px;
+}
+#cod_part_container {
+    width: 200px;
+    top:16px;
+    left: 620px; 
+}
+#t_container {
+    width: 200px;
+    top:76px;
+    left: 620px; 
+}
+/**
+* Container of U blocks
+**/
+#ucontainer {
+    left: 270px;
+    top: 45px;
+    width: 320px;
+    height: 110px;
+}
+#ucontainer input {
+    float:left;
+    display: block;
+}
+#ucontainer span {
+    display: block;
+    float:left;
+    width: 39px;
+    *width: 30px;
+    word-break: break-all;
+}
+
+/**
+* Tab 1 container
+*/
+#tab1container {
+    top: 150px;
+    border-style: none;
+}
+#tab1note {
+    position: relative;
+    top: 180px;
+    width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#hcontainer {
+    left: 180px;
+    width: 150px;
+}
+#cop_arbucontainer {
+    left: 380px;
+    width: 150px;
+}
+/**
+* SE container
+*/
+#secontainer {
+   top: 50px;
+   left: 380px;
+   width: 280px;
+}
+#secontainer input,#secontainer span{
+    float:left;
+    display: block;
+}
+#secontainer span {
+    width: 40px;
+    *width: 35px;
+    word-break: break-all;
+}
+/**
+* Arbustive container
+*/
+#arbustivecontainer {
+    top: 60px;
+    left: 280px;
+    width: 200px;
+    height: 220px;
+}
+#newarbustive {
+    top: 60px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_arbustive {
+    top: 104px;
+    left: 4px;
+    width: 200px;
+}
+#content_schedab3_arbustive  div,
+#newarbustive  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab3_arbustive  div span,
+#newarbustive div span{
+    float:left;
+    width: 100px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#arbustivecontainer .scrollcontrols span{
+    width: 65px;
+}
+/**
+* Erbacee container
+*/
+#erbaceecontainer {
+    top: -150px;
+    left: 580px;
+    width: 200px;
+    height: 220px;
+}
+#newerbacee {
+    top: 44px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_erbacee {
+    top: 104px;
+    left: 4px;
+    width: 200px;
+}
+#content_schedab3_erbacee  div,
+#newerbacee  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab3_erbacee  div span,
+#newerbacee div span {
+    float:left;
+    width: 60px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#erbaceecontainer .scrollcontrols span{
+    width: 65px;
+}
+/**
+* Tab 2 container
+*/
+#tab2container {
+    top: -220px;
+    width: 200px;
+    height: 200px;
+    border-width: 3px;
+    border-color: #0063DC;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: solid;
+    border-right-style: dashed;
+}
+#tab2note {
+    width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#cop_erbacontainer {
+    top: 70px;
+}
+#sr_perccontainer {
+    top: 120px;
+}
+/**
+* Tab 3 container
+*/
+#tab3container {
+    top: -220px;
+    width: 350px;
+    border-width: 3px;
+    border-color: #0063DC;
+    border-left-style: none;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: dashed;
+}
+#tab3note {
+    width: 180px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#comp_coticontainer {
+   top: 30px;
+   width: 310px;
+}
+#comp_coticontainer input,
+#comp_coticontainer span{
+    float:left;
+    display: block;
+}
+#comp_coticontainer span {
+    width: 60px;
+    *width: 50px;
+    word-break: break-all;
+}
+#dens_coticontainer {
+   top: 40px;
+   width: 310px;
+}
+#dens_coticontainer input,
+#dens_coticontainer span{
+    float:left;
+    display: block;
+}
+#dens_coticontainer span {
+    width: 85px;
+    *width: 80px;
+    word-break: break-all;
+}
+#infestanticontainer {
+   top: 50px;
+   width: 310px;
+}
+/**
+* Infestanti container
+*/
+#infestantisscontainer {
+   top: 60px;
+   width: 310px;
+    left: 0px;
+    height: 200px;
+}
+#newinfestanti {
+    top: 44px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_infestanti {
+    top: 104px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_infestanti  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab3_infestanti  div span,
+#newinfestanti div span {
+    float:left;
+    width: 120px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newinfestanti  div{
+    position: relative;
+    clear: both;
+}
+#modalpascocontainer {
+   top: 70px;
+   width: 150px;
+}
+#duratapasccontainer {
+    position: relative;
+    top: 10px;
+    left: 180px;
+    width: 100px;
+}
+#fruitoricontainer {
+    top: 20px;
+    left: 0px;
+}
+#caricopasccontainer {
+    top: 20px;
+    left: 0px;
+    width: 210px;
+}
+#n_capicontainer {
+    position: relative;
+    top: -30px;
+    left: 240px;
+    width: 100px;
+}
+#disph2ocontainer {
+    top: -10px;
+}
+#n_abbeveracontainer {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+}
+#stato_abbecontainer {
+    top: -60px;
+    left: 120px;
+    width: 200px;
+}
+#possmeccanecontainer {
+   top: -40px;
+   width: 310px;
+}
+#possmeccanecontainer input,
+#possmeccanecontainer span{
+    float:left;
+    display: block;
+}
+#possmeccanecontainer span {
+    width: 85px;
+    *width: 80px;
+    word-break: break-all;
+}
+#possmungitcontainer {
+   top: -30px;
+   width: 310px;
+}
+#possmungitcontainer input,
+#possmungitcontainer span{
+    float:left;
+    display: block;
+}
+#possmungitcontainer span {
+    width: 85px;
+    *width: 80px;
+    word-break: break-all;
+}
+#infr_pastcontainer {
+    top: -20px;
+}
+/**
+* Tab 4 container
+*/
+#tab4container {
+    top: -1444px;
+    left: 365px;
+    width: 380px;
+    border-width: 3px;
+    border-color: #0063DC;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+}
+#cop_arbocontainer {
+    position: relative;
+    top: -200px;
+    left: 280px;
+    width: 100px;
+}
+#n1container {
+   top: -30px;
+   width: 220px;
+}
+#n1container input,
+#n1container span{
+    float:left;
+    display: block;
+}
+#n1container span {
+    width: 58px;
+    *width: 53px;
+    word-break: break-all;
+}
+#n1arrow_right {
+    position: relative;
+    top: -80px;
+    left: 250px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+#n2container {
+   top: -140px;
+   left: 270px;
+   width: 150px;
+}
+#n2container input,
+#n2container span{
+    float:left;
+    display: block;
+}
+#n2container span {
+    width: 58px;
+    word-break: break-all;
+}
+#f_container {
+    position: relative;
+   top: -100px;
+}
+#f2_container {
+    position: relative;
+   top: -90px;
+}
+#p2_container {
+   position: relative;
+   top: -70px;
+}
+#p3_container {
+   position: relative;
+   top: -60px;
+}
+#p4_container {
+   position: relative;
+   top: -40px;
+}
+#g1container {
+   top: -20px;
+   width: 250px;
+}
+#g1container input,
+#g1container span{
+    float:left;
+    display: block;
+}
+#g1container span {
+    width: 42px;
+    word-break: break-all;
+}
+#g1arrow_right {
+    position: relative;
+    top: -80px;
+    left: 270px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+#sub_viabcontainer {
+   top: -170px;
+   left: 300px;
+   width: 100px;
+}
+#sub_viabcontainer input,
+#sub_viabcontainer span{
+    float:left;
+    display: block;
+}
+#sub_viabcontainer span {
+    width: 35px;
+    *width: 30px;
+    word-break: break-all;
+}
+/**
+* Arboree container
+*/
+#arboreecontainer {
+    height: 200px;
+    width: 250px;
+}
+#newarboree {
+    top: 44px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_arboree {
+    top: 104px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_arboree  div,
+#newarboree  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab3_arboree  div span,
+#newarboree div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#arboreecontainer .scrollcontrols span{
+    width: 65px;
+}
+/**
+* Rinnovazione container
+*/
+#rinnovazionecontainer {
+    top: -120px;
+    height: 200px;
+    width: 250px;
+}
+#newrinnovazione {
+    top: 44px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_rinnovazione {
+    top: 104px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_rinnovazione  div,
+#newrinnovazione  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab3_rinnovazione  div span,
+#newrinnovazione div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#rinnovazionecontainer .scrollcontrols span{
+    width: 65px;
+}
+/**
+* Tab 5 container
+*/
+#tab5container {
+    top: -1330px;
+    border-style: none;
+}
+#tab5note {
+    position: relative;
+    top: -10px;
+    width: 180px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#coltcontainer {
+   width: 150px;
+}
+#coltcontainer input,
+#coltcontainer span{
+    float:left;
+    display: block;
+}
+#coltcontainer span {
+    width: 50px;
+    word-break: break-all;
+}
+#diffalbcolcontainer {
+   top: -80px;
+   left: 220px;
+   width: 300px;
+}
+#diffalbcolcontainer input,
+#diffalbcolcontainer span{
+    float:left;
+    display: block;
+}
+#diffalbcolcontainer span {
+    width: 40px;
+    word-break: break-all;
+}
+#tab5note2 {
+    position: relative;
+    top: -400px;
+    left: 600px;
+    width: 150px;
+    background-color: #010080;
+    color: #FFFFFF !important;
+    border-style: none;
+}
+#colarrow_up {
+    position: relative;
+    top: -600px;
+    left: 600px;
+    width: 43px;
+    height: 40px;
+    border-style: none;
+    background: transparent url('../images/arrow-up-big.png') no-repeat;
+}
+#forestnotecontainer {
+    top: -180px;
+}
+/**
+* Alberature container
+*/
+#alberaturecontainer {
+    top: -100px;
+    left: 250px;
+    height: 200px;
+    width: 250px;
+}
+#newalberature {
+    top: 44px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_alberature {
+    top: 104px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab3_alberature  div,
+#newalberature div{
+    position: relative;
+    clear: both;
+}
+#content_schedab3_alberature  div span,
+#newalberature div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#alberaturecontainer .scrollcontrols span{
+    width: 65px;
+}
+/**
+* notes container
+*/
+#notescontainer {
+    top: -200px;
+    left: 4px;
+    width: 750px;
+    height: 310px;
+}
+
+#newnote {
+    top: 24px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedab3_note {
+    top: 124px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedab3_note  div,
+#newnote  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab3_note div span,
+#newnote div span {
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#notescontainer .scrollcontrols span{
+    width: 65px;
+}

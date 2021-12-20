@@ -1,0 +1,53 @@
+/* 
+    Document   : profile.css
+    Created on : 16-gen-2013, 14.41.51
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#manage_bosco p {
+    padding: 1px;
+}
+#manage_bosco label {
+    display: inline-block;
+    width: 150px;
+}
+#manage_bosco label.small {
+    display: inline-block;
+    width: 50px;
+}
+#manage_bosco a.submit {
+    display: block;
+    width: 93px;
+    height: 24px;
+    text-align: center;
+}
+#manage_bosco input {
+    width: 100px;
+
+}
+#manage_bosco input.small,select.small {
+    width: 50px;
+}
+#manage_bosco input.large,select.large {
+    width: 200px;
+}
+#manage_bosco .button {
+    margin-left: 200px;
+}
+#prefissocodice {
+    float: right;
+    font-weight: normal;
+}
+#content_bosco_forestlist ul {
+    list-style-type: none;
+}
+#current {
+    width: 20px;
+    padding: 0px;
+}
+#scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}

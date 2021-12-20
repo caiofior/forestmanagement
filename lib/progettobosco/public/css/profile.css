@@ -1,0 +1,31 @@
+/* 
+    Document   : profile.css
+    Created on : 16-gen-2013, 14.41.51
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#profile_form p {
+    padding: 1px;
+}
+#profile_form label {
+    display: inline-block;
+    width: 150px;
+}
+#profile_form label.small {
+    display: inline-block;
+    width: 50px;
+}
+#profile_form input {
+    width: 100px;
+}
+#profile_form input.small {
+    width: 50px;
+}
+#profile_form input.large {
+    width: 200px;
+}
+#profile_form .button {
+    margin-left: 200px;
+}

@@ -1,0 +1,34 @@
+/* 
+    Document   : rilievidendrometrici
+    Created on : 25-mar-2013, 15.10.52
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset > div {
+    width: 250px;
+}
+fieldset div label{
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+input:not([type='radio']){
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+}
+input[type='radio'] {
+   background: transparent;
+   border: 0;
+}
+label.double {
+    height: 40px;
+}
+fieldset p {
+    border-style: none!important;
+}
+#cod_part_container {
+   margin-top: -40px;
+   margin-left: 300px;
+}

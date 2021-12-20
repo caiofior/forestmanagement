@@ -1,0 +1,15 @@
+/* 
+    Document   : cadastral
+    Created on : 18-mar-2013, 11.33.18
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.post form {
+    background-color: #BFBFBF;
+}
+.post form,div,input {
+    margin: 0px;
+    border: 0px;
+    padding: 2px;
+}

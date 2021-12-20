@@ -1,0 +1,21 @@
+/* 
+    Document   : two_col.css
+    Created on : 4-feb-2013, 11.39.09
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Main */
+#main {
+	width: 900px;	
+	float: left;	
+	padding-top: 5px;			
+}
+#main h2 {
+	color: #88881B;
+	border-bottom: 1px solid #29201c;
+	margin-top: 0px;
+}
+#main h2 a { color: #f0e8e8; }
+

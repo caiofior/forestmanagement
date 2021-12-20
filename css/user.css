@@ -1,0 +1,19 @@
+/* 
+    Document   : profile.css
+    Created on : 16-gen-2013, 14.41.51
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#content_userManageForestlist ul {
+    list-style-type: none;
+}
+#current {
+    width: 20px;
+    padding: 0px;
+}
+#scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}

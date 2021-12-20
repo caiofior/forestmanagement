@@ -1,0 +1,502 @@
+/* 
+    Document   : form_a
+    Created on : 4-feb-2013, 14.18.03
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #325D27;
+    display: block;
+}
+legend {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+fieldset > div > label {
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+label.double {
+    height: 40px;
+}
+label.triple {
+    height: 60px;
+}
+input:not([type='radio']){
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+}
+.scrollcontrols input:not([type='radio']) {
+        width: 20%;
+}
+input[type='radio'] {
+   background: transparent;
+   border: 0;
+}
+
+/**
+* General part
+**/
+#general {
+    border-style: none;
+}
+#regione_container {
+    width: 500px;
+    margin-top:4px;
+
+}
+#bosco_container {
+    width: 250px;
+}
+#codiope_container {
+    width: 250px;
+    margin-top: -40px;
+    margin-left: 260px;
+}
+#datasch_container {
+    width: 250px;
+    margin-top: -40px;
+    margin-left: 520px;
+}
+#note_1 {
+    width: 300px;
+}
+#sup_tot_container {
+    width: 100px;
+    margin-top: -40px;
+    margin-left: 299px;
+}
+#boscata_calcolo_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 409px;
+}
+#cod_part_container {
+    width: 161px;
+    margin-top: -60px;
+    margin-left: 520px;
+}
+#comune_container {
+    width: 150px;
+}
+#ap_container {
+    width: 125px;
+    margin-top: -60px;
+    margin-left: 164px;
+}
+#improduttivi_calcolo_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 299px;
+}
+#prod_non_bosc_calcolo_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 409px;
+}
+#toponimo_container {
+    width: 150px;
+}
+#pp_container {
+    margin-top:-60px;
+    width: 125px;
+    margin-left: 164px;
+}
+/**
+* Sub forest parcel
+*/
+#sub_forest_parcel {
+    width: 280px;
+    height: 90px;
+    margin-top: -125px;
+    margin-left: 522px;
+}
+#sup_container {
+    margin-top: -40px;
+    margin-left: 170px;
+    width: 100px;
+}
+/**
+* Posifisio
+**/
+#pf1container {
+    margin-top: 30px;
+    width: 488px;
+}
+.pf1_descr {
+    display: inline-block;
+    width: 60px;
+}
+/**
+* A container
+*/
+#acontainer {
+    width: 488px;
+}
+#acontainer div div{
+    position: relative;
+    clear: both;
+}
+#acontainer div div span{
+    float:left;
+    width: 50px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#acontainer div div span:first-child{
+    float:left;
+    width: 200px;
+    text-align: left;
+    word-break: normal;
+}
+#a8_container {
+    margin-top: 40px;
+    width: 300px;
+}
+/**
+* e1container
+*/
+#e1container {
+    width: 280px;
+    height: 281px;
+    margin-top: -400px;
+    margin-left: 522px;
+}
+.e1 {
+    position: relative;
+}
+.e1.est {
+    left: 0px;
+    top: 46px;
+}
+.e1.nord {
+    left: 134px;
+    top:-5px;
+}
+.e1.nord-est{
+    left: 45px;
+    top:9px;
+}
+.e1.nord-ovest{
+    left: 190px;
+    top:-140px;
+}
+.e1.nulla{
+    left: 134px;
+    top:-103px;
+}
+.e1.ovest {
+    left: 234px;
+    top: -53px;
+}
+.e1.sud {
+    left: 132px;
+    top: 110px;
+}
+.e1.sud-est {
+    left: 45px;
+    top: 100px;
+}
+.e1.sud-ovest {
+    left: 190px;
+    top: 45px;
+}
+/**
+* R container
+**/
+#rcontainer {
+    margin-top: 140px;
+    width: 488px;
+}
+#rcontainer div div{
+    position: relative;
+    clear: both;
+}
+#rcontainer div div span{
+    float:left;
+    width: 50px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#rcontainer div div span:first-child{
+    float:left;
+    width: 200px;
+    text-align: left;
+    word-break: normal;
+}
+#r7_container {
+    margin-top: 40px;
+    width: 300px;
+}
+
+/**
+* F container
+**/
+#fcontainer {
+    margin-top: 20px;
+    width: 488px;
+}
+#fcontainer div div{
+    position: relative;
+    clear: both;
+}
+#fcontainer div div span{
+    float:left;
+    width: 50px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#fcontainer div div span:first-child{
+    float:left;
+    width: 200px;
+    text-align: left;
+    word-break: normal;
+}
+#f12_container {
+    margin-top: 40px;
+    width: 300px;
+}
+/**
+* V container
+**/
+#vcontainer {
+    margin-top: 20px;
+    width: 488px;
+}
+#v1_container {
+    top: 30px;
+    width: 200px;
+}
+#v3_container {
+    top: 30px;
+    left: 210px;
+    width: 200px;
+}
+/**
+* O container
+**/
+#ocontainer {
+    margin-top: 20px;
+    width: 488px;
+}
+.o_descr {
+    display: inline-block;
+    width: 100px;
+}
+/**
+* c container
+**/
+#ccontainer {
+    width: 800px;
+    margin-top: 20px;
+}
+#ccontainer div {
+    float:left;
+    width: 120px;
+}
+#ccontainer div label {
+    display: inline;
+}
+/**
+* P container
+*/
+#pcontainer {
+    width: 810px;
+    margin-top: 20px;
+}
+#pcontainer div {
+    float:left;
+    width: 100px;
+}
+#pcontainer div label {
+    display: inline;
+}
+#p7_container {
+    border-style: solid;
+    border-width: 1px;
+}
+
+/**
+* I container
+*/
+#icontainer {
+    margin-top: 40px;
+    width: 600px;
+}
+#icontainer div {
+    float:left;
+    width: 70px;
+}
+#icontainer div label {
+    display: inline;
+}
+/**
+* I bis container
+*/
+#ibiscontainer {
+    margin-top: -120px;
+    margin-left: 620px;
+    width: 180px;
+}
+#ibiscontainer div {
+    float:left;
+    width: 70px;
+}
+#ibiscontainer div label {
+    display: inline;
+}
+/**
+* M container
+*/
+#mcontainer1 {
+    width: 800px;
+    border-bottom-style: none;
+}
+#mcontainer1 div{
+    font-size: 8px;
+    word-break: break-all;
+    float:left;
+    width: 55px;
+}
+#mcontainer1 div label {
+    display: inline;
+}
+#mcontainer2 {
+    width: 800px;
+    border-top-style: none;
+}
+#mcontainer2 div{
+    font-size: 8px;
+    word-break: break-all;
+    float:left;
+    width: 55px;
+}
+#mcontainer2 div label {
+    display: inline;
+}
+
+/**
+* notes container
+*/
+#notescontainer {
+    margin-top: 40px;
+    width: 800px;
+}
+
+#newnote {
+    top: 24px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedaa_note {
+    top: 124px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedaa_note  div{
+    position: relative;
+    clear: both;
+}
+#content_schedaa_note  div span{
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newnote  div{
+    position: relative;
+    clear: both;
+}
+
+#newnote div span{
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#scrollcontrols span input{
+    display: inline;
+}
+#scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+/**
+* cadastral container
+*/
+#cadastraldata {
+    margin-top: 40px;
+}
+#cadastral_filter {
+}
+#cadastraldata  div,table {
+    font-size: 7px;
+}
+#cadastraldata form {
+    background-color: #BFBFBF;
+}
+#cadastraldata form,div,input {
+    margin: 0px;
+    border: 0px;
+    padding: 2px;
+}
+/**
+* note container
+*/
+#forestnotecontainer {
+    margin-top: 40px;
+    width: 200px;
+    height: 310px;
+}
+#forestnotecontainer textarea {
+    border-style: none;
+}
+/**
+* Surface summary container
+**/
+#surfacesummary   {
+    margin-top: -300px;
+    margin-left: 278px;
+    width: 525px;
+    height: 310px;
+}
+#sup_tot1_container {
+    width: 200px;
+}
+#boscata_calcolo1_container {
+    width: 200px;
+}
+#improduttivi_calcolo1_container {
+    width: 200px;
+}
+#prod_non_bosc_calcolo1_container {
+    width: 200px;
+}
+#surfacenote {
+    margin-top: 40px;
+    width: 200px;
+}

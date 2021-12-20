@@ -1,0 +1,1096 @@
+/* 
+    Document   : formb2
+    Created on : 27-feb-2013, 15.12.31
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #325D27;
+    display: block;
+}
+legend {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+h4 {
+    color: #010080!important;
+    background-color: #ffffff;
+    font-size: 12px!important;
+    margin: 0px!important;
+    padding: 0px;
+    
+}
+fieldset > div {
+    position:absolute;
+}
+fieldset > div > label {
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+label.double {
+    height: 40px;
+}
+label.triple {
+    height: 60px;
+}
+select {
+   margin: 0px !important;
+   padding: 0px !important;
+   height: 17px;
+   width: 80%;
+}
+input:not([type='radio']) {
+   width: 80%;
+   margin: 0px ;
+   padding: 0px;
+}
+input[type='radio'],input[type='checkbox'] {
+   background: transparent;
+   border: 0;
+}
+.scrollcontrols span input{
+    display: inline;
+}
+.scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+#formB2 {
+}
+/**
+* General part
+**/
+#general {
+    height: 0px;
+    border-style: none;
+}
+#regione_container {
+    width: 500px;
+    margin-top:4px;
+    margin-left:4px;
+}
+#bosco_container {
+    width: 250px;
+    margin-top:58px;
+    margin-left:4px;
+}
+#note_1 {
+    width: 400px;
+    margin-top:82px;
+    margin-left:4px;
+}
+#cod_part_container {
+    width: 200px;
+    margin-top:4px;
+    margin-left: 612px; 
+}
+#t_container {
+    width: 200px;
+    margin-top:150px;
+    margin-left: 612px; 
+}
+/**
+* Container of U blocks
+**/
+#ucontainer {
+    margin-left: 400px;
+    margin-top: 60px;
+    width: 400px;
+    height: 250px;
+    border-style: none;
+}
+#ucontainer input {
+    float:left;
+    display: block;
+}
+#ucontainer span {
+    display: block;
+    float:left;
+    width: 80px;
+    *width: 75px;
+    word-break: break-all;
+}
+/**
+* Label TAb1 blocks
+**/
+#tab1note {
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#tipocontainer {
+    margin-top: -80px;
+    margin-left: 120px;
+    width: 300px;
+    height: 80px;
+}
+#tipocontainer input {
+    float:left;
+    display: block;
+}
+#tipocontainer span {
+    display: block;
+    float:left;
+    width: 80px;
+    *width: 75px;
+    word-break: break-all;
+}
+/**
+* Tab 1 container
+*/
+#tab1container {
+    margin-top: 200px;
+    height: 400px;
+    border-style: none;
+}
+#anno_imp_container {
+    margin-top: -60px;
+    margin-left: 450px;
+}
+#anno_dest_container {
+    width: 200px;
+    margin-top: -60px;
+    margin-left: 620px;
+}
+#cod_coltup_container {
+    margin-top: -50px;
+    margin-left: 320px;
+}
+#cod_coltus_container {
+    margin-top: -50px;
+    margin-left: 600px;
+}
+#dist_container {
+    margin-top: 10px;
+     width: 100px;
+}
+#dist_princ_container {
+    margin-top: 10px;
+    margin-left: 122px;
+    width: 100px;
+}
+#fall_container {
+    margin-top: -40px;
+    margin-left: 670px;
+    width: 150px;
+}
+/**
+*Com Spec container
+**/
+#comp_specontainer {
+    margin-top: 10px;
+    height: 40px;
+    width: 280px;
+}
+#comp_specontainer input {
+    float:left;
+    display: block;
+}
+#comp_specontainer span {
+    display: block;
+    float:left;
+    width: 80px;
+    *width: 75px;
+    word-break: break-all;
+}
+/**
+*Com Spec container
+**/
+#sesto_imp_arbcontainer {
+    margin-top: 10px;
+    margin-left: 244px;
+    height: 60px;
+    width: 250px;
+}
+#sesto_imp_arbcontainer input {
+    float:left;
+    display: block;
+}
+#sesto_imp_arbcontainer span {
+    float:left;
+    width: 45px;
+    *width: 40px;
+    word-break: break-all;
+}
+/**
+*Com Spec container
+**/
+#sesto_imp_sp_princ_arbcontainer {
+    margin-top: -90px;
+    margin-left: 520px;
+    height: 80px;
+    width: 250px;
+}
+#sesto_imp_sp_princ_arbcontainer input {
+    float:left;
+    display: block;
+}
+#sesto_imp_sp_princ_arbcontainer span {
+    float:left;
+    width: 45px;
+    *width: 40px;
+    word-break: break-all;
+}
+/**
+*Vig Arb Princ container
+**/
+#vig_arb_princcontainer {
+    margin-top: 30px;
+    height: 40px;
+    width: 300px;
+}
+#vig_arb_princcontainer input {
+    float:left;
+    display: block;
+}
+#vig_arb_princcontainer span {
+    float:left;
+    width: 80px;
+    *width: 75px;
+    word-break: break-all;
+}
+/**
+*Vig Arb Sec container
+**/
+#vig_arb_seccontainer {
+    margin-top: -50px;
+    margin-left: 330px;
+    height: 40px;
+    width: 300px;
+}
+#vig_arb_seccontainer input {
+    float:left;
+    display: block;
+}
+#vig_arb_seccontainer span {
+    float:left;
+    width: 80px;
+    word-break: break-all;
+}
+/**
+*Qual pri container
+**/
+#qual_pricontainer {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+}
+#qual_pricontainer input {
+    float:left;
+    display: block;
+}
+#qual_pricontainer span {
+    float:left;
+    width: 80px;
+    word-break: break-all;
+}
+/**
+* Tab 1 lines
+*/
+#line1tab1 {
+    margin-top: 10px;
+    width: 450px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #0063DC;
+}
+#line2tab1 {
+    margin-left: 450px;
+    margin-top: 10px;
+    width: 350px;
+    border-top-style: dashed;
+    border-top-width: 3px;
+    border-top-color: #0063DC;
+}
+/**
+* Tab 2
+*/
+#tab2container {
+    margin-top: 20px;
+    height: 170px;
+    border-style: none;
+}
+#tab2note {
+    position: relative;
+    margin-top: 0px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+/**
+*Col cast container
+**/
+#colt_castcontainer {
+    margin-top: -60px;
+    margin-left: 120px;
+    height: 80px;
+    width: 500px;
+}
+#colt_castcontainer input {
+    float:left;
+    display: block;
+}
+#colt_castcontainer span {
+    float:left;
+    width: 80px;
+    word-break: break-all;
+}
+/**
+*Vig cast container
+**/
+#vig_castcontainer {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+}
+#vig_castcontainer input {
+    float:left;
+    display: block;
+}
+#vig_castcontainer span {
+    float:left;
+    width: 80px;
+    word-break: break-all;
+}
+/**
+*Sesto imp cast container
+**/
+#sesto_imp_castcontainer {
+    margin-top: -60px;
+    margin-left: 350px;
+    height: 40px;
+    width: 400px;
+}
+#sesto_imp_castcontainer input {
+    float:left;
+    display: block;
+}
+#sesto_imp_castcontainer span {
+    float:left;
+    width: 80px;
+    word-break: break-all;
+}
+/**
+* Tab 2 lines
+*/
+#line1tab2 {
+    margin-top: 10px;
+    width: 450px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #0063DC;
+}
+#line2tab2 {
+    margin-left: 450px;
+    margin-top: 10px;
+    width: 350px;
+    border-top-style: dashed;
+    border-top-width: 3px;
+    border-top-color: #0063DC;
+}
+/**
+* Tab 3
+*/
+#tab3note {
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#tab3container {
+    margin-top: 10px;
+    border-style: none;
+}
+#cod_coltub_container {
+    margin-top: -80px;
+    margin-left: 150px;
+}
+#cod_coltua_container {
+    margin-top: 10px;
+}
+#fungo_ospi_container {
+    margin-top: 60px;
+    margin-left: 0px;
+}
+#num_piante_container {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#piant_tart_container {
+    margin-top: 10px;
+    margin-left: 250px;
+}
+/**
+*Sesto imp tart container
+**/
+#sesto_imp_tartcontainer {
+    margin-top: 120px;
+    height: 40px;
+    width: 400px;
+}
+#sesto_imp_tartcontainer input {
+    float:left;
+    display: block;
+}
+#sesto_imp_tartcontainer span {
+    float:left;
+    width: 80px;
+    word-break: break-all;
+}
+/**
+* Tab 3 lines
+*/
+#line1tab3 {
+    margin-top: 60px;
+    width: 450px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #0063DC;
+}
+#line2tab3 {
+    margin-left: 450px;
+    margin-top: 60px;
+    width: 350px;
+    border-top-style: dashed;
+    border-top-width: 3px;
+    border-top-color: #0063DC;
+}
+/**
+* Tab 4
+*/
+#tab4note {
+    margin-top: 0px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+#tab4container {
+    margin-top: 60px;
+    border-style: none;
+}
+#s_container {
+    margin-top: -40px;
+    margin-left:140px;
+}
+/**
+*Fito bio container
+**/
+#fito_bio_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 220px;
+}
+/**
+*Fito bio spec container
+**/
+#fito_bio_spec_container {
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 220px;
+}
+/**
+*Fito bio container
+**/
+#fito_abio_container {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 330px;
+}
+/**
+*Fito bio spec container
+**/
+#fito_abio_spec_container {
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 330px;
+}
+/**
+* Spe nov container
+**/
+#spe_nov_container {
+    width: 200px;
+    margin-top: -60px;
+    margin-left: 250px;
+}
+/**
+* Tipo int sug container
+**/
+#tipo_int_sug_container {
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+/**
+* Int2 container
+**/
+#int2_container {
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+/**
+* Int3 container
+**/
+#int3_container {
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+/**
+* Estraz passata container
+*/
+#estraz_passata_container {
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 290px;
+}
+/**
+* Arboree 2 container
+*/
+#arboreecontainer {
+    margin-top: 10px;
+    width: 260px;
+    height: 150px;
+}
+#newarboree {
+    margin-top: 24px;
+    margin-left: 4px;
+    width: 250px;
+}
+#content_schedab2_arboree {
+    margin-top: 74px;
+    margin-left: 4px;
+    width: 250px;
+}
+#content_schedab2_arboree  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab2_arboree  div span,
+#newarboree div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newarboree  div{
+    position: relative;
+    clear: both;
+}
+/**
+*O container
+**/
+#ocontainer {
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 120px;
+    width: 260px;
+}
+#ocontainer input {
+    float:left;
+    display: block;
+}
+#ocontainer span {
+    float:left;
+    width: 50px;
+    *width: 45px;
+    word-break: break-all;
+}
+/**
+*Vig sug container
+**/
+#vig_sugcontainer {
+    margin-top: -120px;
+    margin-left: 280px;
+    height: 120px;
+    width: 140px;
+}
+#vig_sugcontainer input {
+    float:left;
+    display: block;
+}
+#vig_sugcontainer .vig_sug_descr {
+    float:left;
+    width: 32px;
+    *width: 27px;
+    word-break: break-all;
+}
+/**
+*Fito sug container
+**/
+#fito_sugcontainer {
+    margin-top: 0px;
+    height: 60px;
+    width: 180px;
+}
+#fito_sugcontainer input {
+    float:left;
+    display: block;
+}
+#fito_sugcontainer span {
+    float:left;
+    width: 50px;
+    word-break: break-all;
+}
+/**
+*V container
+**/
+#vcontainer {
+    margin-top: 60px;
+    height: 40px;
+    width: 130px;
+}
+#vcontainer input {
+    float:left;
+    display: block;
+}
+#vcontainer span {
+    float:left;
+    width: 50px;
+    *width: 45px;
+    word-break: break-all;
+}
+/**
+*D container
+**/
+#dcontainer {
+    margin-top: -60px;
+    margin-left: 150px;
+    height: 40px;
+    width: 230px;
+}
+#dcontainer input {
+    float:left;
+    display: block;
+}
+#dcontainer span {
+    float:left;
+    width: 58px;
+    *width: 53px;
+    word-break: break-all;
+}
+/**
+*N1 container
+**/
+#n1container {
+    margin-top: 10px;
+    height: 40px;
+    width: 220px;
+}
+#n1container input {
+    float:left;
+    display: block;
+}
+#n1container span {
+    float:left;
+    width: 60px;
+    *width: 55px;
+    word-break: break-all;
+}
+/**
+* N1 arrow
+*/
+#n1arrow_right {
+    margin-top: -40px;
+    margin-left: 245px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+/**
+*N2 container
+**/
+#n2container {
+    margin-top: -60px;
+    margin-left: 255px;
+    height: 40px;
+    width: 170px;
+}
+#n2container input {
+    float:left;
+    display: block;
+}
+#n2container span {
+    float:left;
+    width: 70px;
+    word-break: break-all;
+}
+/**
+*N3 container
+**/
+#n3container {
+    height: 40px;
+    width: 200px;
+}
+#n3container input {
+    float:left;
+    display: block;
+}
+#n3container span {
+    float:left;
+    width: 75px;
+    *width: 70px;
+    word-break: break-all;
+}
+/**
+* N3 arrow
+*/
+#n3arrow_right {
+    margin-top: -40px;
+    margin-left: 230px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+/**
+* D cork container
+**/
+#dsugcontainer {
+    margin-top: 100px;
+    margin-left: 0px;
+    height: 180px;
+    width: 400px;
+}
+/**
+* D5 cork container
+**/
+#d5_container {
+    width: 90px;
+}
+/**
+* D10 cork container
+**/
+#d10_container {
+    width: 90px;
+    margin-left: 100px;
+}
+/**
+* D11 cork container
+**/
+#d11_container {
+    width: 90px;
+    margin-left: 200px;
+}
+/**
+* D12 cork container
+**/
+#d12_container {
+    width: 90px;
+    margin-left: 300px;
+}
+/**
+* D1 cork container
+**/
+#d1_container {
+    width: 120px;
+    margin-top: 100px;
+}
+/**
+* D3 cork container
+**/
+#d3_container {
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+/**
+* D13 cork container
+**/
+#d13_container {
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 260px;
+}
+/**
+* Vertical line
+*/
+#tab4verticalline {
+    position: relative;
+    margin-top: -1257px;
+    margin-left: 450px;
+    width: 1px;
+    height: 1200px;
+    border-right-style: dashed;
+    border-right-width: 3px;
+    border-right-color: #0063DC;
+}
+/**
+* Tab 5 container
+*/
+#tab5container {
+    margin-top: -920px;
+    margin-left: 460px;
+    width: 200px;
+    height: 1200px;
+    border-style: none;
+    border-left-style: dashed;
+    border-left-width: 3px;
+    border-left-color: #0063DC;
+}
+/**
+* Ce container
+*/
+#ce_container {
+    margin-left: 210px;
+}
+/**
+* Tipo prescr sug container
+**/
+#tipo_prescr_sug_container {
+    width: 300px;
+    margin-top: 10px;
+}
+/**
+* P2 container
+**/
+#p2_container {
+    width: 250px;
+    margin-top: 60px;
+}
+#p2_container label{
+    width: 200px;
+}
+/**
+* Estraz futura container
+**/
+#estraz_futura_container {
+    margin-top: 50px;
+    margin-left: 220px;
+    width: 150px;
+}
+/**
+* P3 container
+**/
+#p3_container {
+    width: 250px;
+    margin-top: 100px;
+}
+#p3_container label{
+    width: 200px;
+}
+/**
+* P4 container
+**/
+#p4_container {
+    margin-top: 170px;
+}
+/**
+* SR container
+*/
+#srcontainer {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 50px;
+}
+/**
+* Arbustive container
+*/
+#arbustivecontainer {
+    margin-top: -200px;
+    margin-left: 120px;
+    width: 200px;
+    height: 200px;
+}
+#newarbustive {
+    margin-top: 44px;
+    margin-left: 4px;
+    width: 250px;
+}
+#content_schedab2_arbustive {
+    margin-top: 104px;
+    margin-left: 4px;
+    width: 250px;
+}
+#content_schedab2_arbustive  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab2_arbustive  div span,
+#newarbustive div span
+{
+    float:left;
+    width: 60px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newarbustive  div{
+    position: relative;
+    clear: both;
+}
+
+#newarbustive div span{
+    float:left;
+    width: 60px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+
+/**
+* SE container
+**/
+#secontainer {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 50px;
+}
+/**
+* Erbacee container
+*/
+#erbaceecontainer {
+    margin-top: -180px;
+    margin-left: 120px;
+    width: 200px;
+    height: 200px;
+}
+#newerbacee {
+    margin-top: 44px;
+    margin-left: 4px;
+    width: 250px;
+}
+#content_schedab2_erbacee {
+    margin-top: 104px;
+    margin-left: 4px;
+    width: 200px;
+}
+#content_schedab2_erbacee  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab2_erbacee  div span,
+#newerbacee div span
+{
+    float:left;
+    width: 60px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newerbacee  div{
+    position: relative;
+    clear: both;
+}
+
+/**
+* Container of G1 blocks
+**/
+#g1container{
+    margin-top: 220px;
+    margin-left: 0px;
+    width: 220px;
+    height: 100px;
+}
+#g1container input {
+    float:left;
+    display: block;
+}
+#g1container span {
+    display: block;
+    float:left;
+    width: 40px;
+    word-break: break-all;
+}
+/**
+* N1 arrow
+*/
+#n5arrow_right {
+    margin-top: -80px;
+    margin-left: 245px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+/**
+* Container of Sub Viab blocks
+**/
+#sub_viabcontainer{
+    margin-top: -80px;
+    margin-left: 260px;
+    width: 80px;
+    height: 100px;
+}
+#sub_viabcontainer legend{
+    margin-left: 0px;
+    word-break: break-all;
+}
+#sub_viabcontainer input {
+    float:left;
+    display: block;
+}
+#sub_viabcontainer span {
+    display: block;
+    float:left;
+    width: 25px;
+    word-break: break-all;
+}
+/**
+* Note container
+**/
+#forestnotecontainer {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 320px;
+}
+/**
+* notes container
+*/
+#notescontainer {
+    margin-top: 0px;
+    margin-left: 4px;
+    width: 800px;
+    height: 310px;
+}
+
+#newnote {
+    margin-top: 24px;
+    margin-left: 70px;
+    width: 700px;
+}
+#content_schedab2_note {
+    margin-top: 124px;
+    margin-left: 70px;
+    width: 700px;
+}
+#content_schedab2_note  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab2_note div span,
+#newnote div span
+{
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newnote  div{
+    position: relative;
+    clear: both;
+}

@@ -1,0 +1,209 @@
+/* 
+    Document   : viabilita
+    Created on : 18-apr-2013, 10.39.13
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #325D27;
+    position: relative;
+    display: block;
+    *margin-top: 12px;
+    *margin-bottom: 0px;
+    -webkit-padding-before: 7.5px;
+    -webkit-padding-start: 0px;
+}
+legend {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+h4 {
+    position: relative;
+    color: #010080!important;
+    background-color: #ffffff;
+    font-size: 12px!important;
+    margin: 0px!important;
+    padding: 0px;
+    
+}
+fieldset > div > label {
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+label.double {
+    height: 40px;
+}
+label.triple {
+    height: 60px;
+}
+select {
+   margin: 0px !important;
+   padding: 0px !important;
+   height: 17px;
+   width: 80%;
+}
+input:not([type='radio']) {
+   width: 80%;
+   margin: 0px ;
+   padding: 0px;
+}
+input[type='radio'],input[type='checkbox'] {
+   background: transparent;
+   border: 0;
+}
+.scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+/**
+* General part
+**/
+#general {
+    border-style: none;
+}
+#bosco_container {
+    width: 200px;
+}
+#codiope_container {
+    width: 200px;
+    margin-top: -40px;
+    margin-left: 220px;
+}
+#data_container {
+    width: 200px;
+    margin-top: -40px;
+    margin-left: 440px;
+}
+#lung_gis_container {
+    width: 150px;
+    margin-top: -40px;
+    margin-left: 440px;
+}
+#strada_container {
+    width: 150px;
+    margin-top: -40px;
+    margin-left: 610px;
+}
+#note1 {
+    border-style: none;
+}
+#nome_strada_container {
+    width: 200px;
+}
+#da_valle_container {
+    margin-top: -40px;
+    margin-left: 220px;
+    width: 200px;
+}
+#a_monte_container {
+    margin-top: -40px;
+    margin-left: 440px;
+    width: 200px;
+}
+#class_amm_container {
+    width: 380px;
+}
+#class_prop_container {
+    margin-top: -80px;
+    margin-left: 400px;
+    width: 350px;
+}
+#larg_min_container {
+    width: 100px;
+}
+#larg_prev_container {
+    margin-top: -40px;
+    margin-left: 120px;
+    width: 100px;
+}
+#raggio_curve_container {
+    margin-top: -40px;
+    margin-left: 240px;
+    width: 100px;
+}
+#fondo_container {
+    margin-top: -60px;
+    margin-left: 360px;
+    width: 150px;
+}
+#pend_media_container {
+    width: 100px;
+}
+#pend_max_container {
+    margin-top: -40px;
+    margin-left: 120px;
+    width: 100px;
+}
+#contropend_container {
+    margin-top: -40px;
+    margin-left: 240px;
+    width: 100px;
+}
+#q_piazzole_container {
+    margin-top: -60px;
+    margin-left: 360px;
+    width: 150px;
+}
+#accesso_container {
+    width: 380px;
+}
+#transitabi_container {
+    margin-top: -60px;
+    margin-left: 400px;
+    width: 380px;
+}
+#manutenzione_container {
+    width: 380px;
+}
+#urgenza_container {
+    margin-top: -80px;
+    margin-left: 400px;
+    width: 380px;
+}
+#specifica_container {
+    margin-top: -40px;
+    margin-left: 600px;
+    width: 180px;
+}
+/**
+* e1 container
+*/
+#e1_container {
+
+}
+
+#newe1 {
+    top: 24px;
+    left: 70px;
+}
+#content_viabilita_e1 {
+    top: 124px;
+    left: 70px;
+    width: 700px;
+}
+#content_viabilita_e1  div,
+#newe1  div{
+    position: relative;
+    clear: both;
+}
+#content_viabilita_e1 div span,
+#newe1 div span {
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#e1_container .scrollcontrols span{
+    width: 65px;
+}

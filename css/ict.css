@@ -1,0 +1,91 @@
+/* 
+    Document   : rilievidendrometrici
+    Created on : 25-mar-2013, 15.10.52
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset > div {
+    width: 250px;
+}
+fieldset div label{
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+input:not([type='radio']){
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+}
+input[type='radio'] {
+   background: transparent;
+   border: 0;
+}
+label.double {
+    height: 40px;
+}
+fieldset p {
+    border-style: none!important;
+}
+#cod_part_container {
+   margin-top: -40px;
+   margin-left: 300px;
+}
+#data_container {
+   margin-left: 100px;
+}
+#codiope_container {
+   margin-top: -40px;
+   margin-left: 400px;
+}
+#p_container {
+   width: 100px;
+   margin-left: 300px;
+}
+#c_anel_container {
+   width: 600px;
+   margin-left: 100px;
+}
+#m_anel_container {
+   width: 600px;
+   margin-left: 100px;
+}
+#irc1_table_container {
+   margin-top: 0px;
+   width: 350px;
+}
+#irc1_table_container > div {
+    width: 350px;
+}
+#irc1_table_container > div > div {
+    clear: left;
+}
+#irc1_table_container > div > div > span > div{
+   width: 58px;
+   float:left;
+}
+#irc1_table_container > div > div > span > div > select{
+   width: 58px;
+}
+#irc2_table_container {
+   margin-left: 390px;
+   margin-top: -100px;
+   width: 350px;
+}
+#irc2_table_container > div {
+    width: 350px;
+}
+#irc2_table_container > div > div {
+    clear: left;
+}
+#irc2_table_container > div > div > span > div{
+   width: 58px;
+   float:left;
+}
+#irc2_table_container > div > div > span > div > select{
+   width: 58px;
+}
+#content_rilievidendrometrici_list ul {
+    list-style-type: none;
+}

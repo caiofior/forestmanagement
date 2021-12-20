@@ -1,0 +1,117 @@
+/* 
+    Document   : rilievidendrometrici
+    Created on : 25-mar-2013, 15.10.52
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset > div {
+    width: 250px;
+}
+fieldset div label{
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+input:not([type='radio']){
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+}
+input[type='radio'] {
+   background: transparent;
+   border: 0;
+}
+label.double {
+    height: 40px;
+}
+fieldset p {
+    border-style: none!important;
+}
+.scrollcontrols input {
+    width: 50px;
+}
+#cod_part_container {
+   margin-left: 300px;
+}
+#data_container {
+   width: 180px;
+}
+#n_camp_container {
+    margin-top: -40px;
+    margin-left: 200px;
+    width: 100px;
+}
+#codiope_container {
+   margin-top: -60px;
+   margin-left: 350px;
+}
+#f_container {
+   width: 100px;
+   margin-top: -40px;
+   margin-left: 650px;
+}
+#p_container {
+   width: 100px;
+   margin-left: 300px;
+}
+#d_ogni_container {
+   width: 200px;
+}
+#h_ogni_container {
+   width: 200px;
+   margin-top: -60px;
+   margin-left:250px;
+}
+#y_container {
+   width: 100px;
+   margin-top: -60px;
+   margin-left:470px;
+}
+#x_container {
+   width: 100px;
+   margin-top: -40px;
+   margin-left:600px;
+}
+#irs1_table_container {
+   margin-left: 100px;
+   margin-top: 40px;
+   width: 250px;
+}
+#irs1_table_container > div {
+    width: 250px;
+}
+#irs1_table_container > div > div {
+    clear: left;
+}
+#irs1_table_container > div > div > span > div{
+   width: 58px;
+   float:left;
+}
+#irs1_table_container > div > div > span > div > select{
+   width: 58px;
+}
+#irs2_table_container {
+   margin-left: 450px;
+   margin-top: -120px;
+   width: 250px;
+}
+#irs2_table_container > div {
+    width: 250px;
+}
+#irs2_table_container > div > div {
+    clear: left;
+}
+#irs2_table_container > div > div > span > div{
+   width: 58px;
+   float:left;
+}
+#irs2_table_container > div > div > span > div > select{
+   width: 58px;
+}
+#note_container {
+    margin-top: 50px;
+}
+#content_rilievidendrometrici_list ul {
+    list-style-type: none;
+}

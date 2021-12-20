@@ -1,0 +1,647 @@
+/* 
+    Document   : formb1
+    Created on : 8-feb-2013, 16.02.55
+    Author     : caiofior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #325D27;
+    display: block;
+}
+legend {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+h4 {
+    color: #010080!important;
+    background-color: #ffffff;
+    font-size: 12px!important;
+}
+fieldset > div {
+
+}
+fieldset > div > label {
+    background-color: #010080;
+    color: #ffffff!important;
+    display: block;
+}
+label.double {
+    height: 40px;
+}
+label.triple {
+    height: 60px;
+}
+select {
+   margin: 0px !important;
+   padding: 0px !important;
+   height: 17px;
+   width: 80%;
+}
+input:not([type='radio']) {
+   width: 80%;
+   margin: 0px ;
+   padding: 0px;
+}
+input[type='radio'],input[type='checkbox'] {
+   background: transparent;
+   border: 0;
+}
+/**
+* General part
+**/
+#general {
+    border-style: none;
+}
+#regione_container {
+    width: 500px;
+}
+#bosco_container {
+    width: 250px;
+}
+#note_1 {
+    width: 300px;
+}
+#u_container {
+    width: 200px;
+}
+#t_container {
+    width: 200px;
+    margin-top: -60px;
+    margin-left: 208px; 
+}
+#cod_part_container {
+    width: 200px;
+    margin-top: -60px;
+    margin-left: 412px; 
+}
+#s_container {
+    width: 200px;
+}
+#mcontainer {
+    margin-top: -50px;
+    margin-left: 208px;
+    width: 320px;
+}
+/**
+* O container
+*/
+#ocontainer {
+    width: 525px;
+}
+#ocontainer input,
+#ocontainer div {
+    float:left;      
+}
+
+#c1_container {
+    margin-top: 10px;
+    width: 150px;
+}
+#vigcontainer {
+    margin-left: 160px;
+    margin-top: -60px;
+    width: 370px;
+}
+
+#vcontainer {
+    margin-top: 20px;
+    width: 135px;
+}
+#ce_container {
+    width: 150px;
+    margin-top: -60px;
+    margin-left: 164px; 
+}
+
+#dcontainer {
+    margin-top: -60px;
+    margin-left: 320px;
+    width: 210px;
+}
+/**
+* Arboree container
+*/
+#arboreecontainer {
+    margin-left: 550px;
+    margin-top: -290px;
+    width: 250px;
+}
+#newarboree {
+    top: 24px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab_arboree {
+    top: 74px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab_arboree  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab_arboree  div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newarboree  div{
+    position: relative;
+    clear: both;
+}
+
+#newarboree div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#arboreecontainer .scrollcontrols span input{
+    display: inline;
+}
+#arboreecontainer .scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+
+/**
+* Prep terr container
+*/
+#prep_terrcontainer {
+    margin-left: 550px;
+    top: -240px;
+    width: 225px;
+}
+
+
+/**
+* Sesto container
+*/
+#sestocontainer {
+    top: -350px;
+    margin-left: 550px;
+    width: 230px;
+}
+#sestocontainer div {
+    float: left;
+    width: 90px;
+}
+
+
+/**
+* SR container
+**/
+#srcontainer {
+    margin-top: -150px;
+    width: 270px;
+}
+/**
+* Arbustive container
+*/
+#arbustivecontainer {
+    margin-top: -70px;
+    margin-left: 308px;
+    width: 200px;
+    height: 200px;
+}
+#newarbustive {
+    top: 44px;
+    left: 4px;
+    width: 190px;
+}
+#content_schedab_arbustive {
+    top: 104px;
+    left: 4px;
+    width: 190px;
+}
+#content_schedab_arbustive  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab_arbustive  div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newarbustive  div{
+    position: relative;
+    clear: both;
+}
+
+#newarbustive div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#arbustivecontainer .scrollcontrols span{
+    width: 52px;
+}
+#arbustivecontainer .scrollcontrols span input{
+    width: 20px;
+    display: inline;
+}
+#arbustivecontainer .scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+/**
+* SE container
+**/
+#secontainer {
+    width: 270px;
+}
+/**
+* Erbacee container
+*/
+#erbaceecontainer {
+    margin-top: -80px;
+    margin-left: 308px;
+    width: 260px;
+    height: 200px;
+}
+#newerbacee {
+    top: 44px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab_erbacee {
+    top: 104px;
+    left: 4px;
+    width: 250px;
+}
+#content_schedab_erbacee  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab_erbacee  div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newerbacee  div{
+    position: relative;
+    clear: both;
+}
+
+#newerbacee div span{
+    float:left;
+    width: 80px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#erbaceecontainer .scrollcontrols span input{
+    display: inline;
+}
+#erbaceecontainer .scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+/**
+* N1 container
+**/
+#n1container {
+    width: 200px;
+}
+#n1arrow_right {
+    margin-top: -60px;
+    margin-left: 225px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+/**
+* N2 container
+**/
+#n2container {
+    margin-top: -60px;
+    margin-left: 246px;
+    width: 140px;
+}
+#n2container input,.n2_descr {
+    float:left;      
+}
+.n2_descr {
+    display: block;
+    width: 50px;
+}
+/**
+* N3 container
+**/
+#n3container {
+    margin-top: -60px;
+    margin-left: 406px;
+    width: 140px;
+}
+#n3container input,.n3_descr {
+    float:left;      
+}
+.n3_descr {
+    display: block;
+    width: 50px;
+    word-break: break-all;
+}
+#n3arrow_right {
+    margin-top: -60px;
+    margin-left: 570px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+#spe_nov_container {
+    width: 150px;
+    margin-top: -60px;
+    margin-left: 600px; 
+}
+#int2_container {
+    width: 150px;
+}
+#int3_container {
+    margin-top: -40px;
+    width: 150px;
+    margin-left: 158px; 
+}
+#f_container {
+    width: 150px;
+}
+/**
+* G container
+**/
+#gcontainer {
+    width: 500px;
+}
+#gcontainer > span {
+    display: block;
+}
+#gcontainer div input,
+#gcontainer div span {
+    float:left;      
+}
+#gcontainer div span {
+    display: block;
+    width: 110px;
+    word-break: break-all;
+}
+#p2_container {
+    width: 150px;
+}
+#p3_container {
+    width: 150px;
+    margin-top: -60px;
+    margin-left: 158px; 
+}
+#p4_container {
+    width: 150px;
+    margin-top:-60px;
+    margin-left: 316px; 
+}
+
+/**
+* G1 container
+**/
+#g1container {
+    width: 600px;
+}
+#g1container input,.g1_descr {
+    float:left;      
+    margin-top: 30px;
+}
+.g1_descr {
+    display: block;
+    width: 70px;
+    word-break: break-all;
+}
+#g1arrow_right {
+    margin-top: 20px;
+    margin-left: 350px;
+    width: 10px;
+    height: 43px;
+    border-style: none;
+    background: transparent url('../images/arrow-right.png') no-repeat;
+}
+#g1container .sub_viab_descr {
+    float:left;      
+    display: block;
+    width: 30px;
+    margin-top: 30px;
+}
+#g1container .spacer_descr {
+    float:left;      
+    display: block;
+    width: 70px;    
+}
+#sub_viab_container {
+    display: block;
+    margin-top: -50px;
+    margin-left: 400px;
+}
+#label_dendro_1 {
+    width: 180px;
+}
+#label_dendro_2 {
+    margin-top:-30px;
+    margin-left:220px;
+    width: 70px;
+}
+#d1_container {
+    width: 100px;
+}
+#d3_container {
+    width: 100px;
+    margin-top:-60px;
+    margin-left: 108px; 
+}
+#d5_container {
+    width: 100px;
+    margin-top:-60px;
+    margin-left: 216px; 
+}
+#label_dendro_3 {
+    margin-top:-70px;
+    margin-left: 400px; 
+    width: 70px;
+}
+
+#d14_container {
+    width: 100px;
+    margin-top:0px;
+    margin-left: 416px; 
+}
+#d15_container {
+    width: 100px;
+    margin-top:-60px;
+    margin-left: 520px; 
+}
+#d16_container {
+    width: 100px;
+    margin-top:-60px;
+    margin-left: 624px; 
+}
+
+/**
+* Specific D container
+**/
+#d_spec_container {
+    margin-top: 50px;
+    width: 800px;
+    height: 250px;
+}
+#d21_container {
+    width: 150px;
+}
+#d22_container {
+    width: 150px;
+    margin-top:-60px;
+    margin-left: 158px; 
+}
+#d23_container {
+    width: 150px;
+}
+#d24_container {
+    width: 150px;
+    margin-top:-60px;
+    margin-left: 158px; 
+}
+#d26_container {
+    width: 150px;
+}
+#d25_container {
+    width: 150px;
+    margin-top:-60px;
+    margin-left: 158px; 
+}
+#newdspecieexitimation {
+    margin-top: -150px;
+    margin-left: 350px;
+    width: 450px;
+}
+#content_schedab_dspecieexitimation {
+    width: 450px;
+}
+#content_schedab_dspecieexitimation  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab_dspecieexitimation  div span{
+    float:left;
+    width: 150px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newdspecieexitimation  div{
+    position: relative;
+    clear: both;
+}
+
+#newdspecieexitimation div span{
+    float:left;
+    width: 120px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#content_schedab_dspecieexitimation .scrollcontrols span input{
+    display: inline;
+}
+#content_schedab_dspecieexitimation .scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+/**
+* notes container
+*/
+#notescontainer {
+    width: 800px;
+    height: 310px;
+}
+
+#newnote {
+    top: 24px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedab_note {
+    top: 124px;
+    left: 70px;
+    width: 700px;
+}
+#content_schedab_note  div{
+    position: relative;
+    clear: both;
+}
+#content_schedab_note div span{
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#newnote  div{
+    position: relative;
+    clear: both;
+}
+
+#newnote div span{
+    float:left;
+    width: 220px;
+    text-align: center;
+    word-break: break-all;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+#content_schedab_dspecieexitimation .scrollcontrols span input{
+    display: inline;
+}
+#content_schedab_dspecieexitimation .scrollcontrols img {
+    margin-top: 5px;
+    vertical-align:top;
+}
+/**
+* forest notes container
+*/
+#forestnotecontainer {
+    top: -260px;
+    *top: -80px;
+    left: 4px;
+    width: 800px;
+    height: 310px;
+}
