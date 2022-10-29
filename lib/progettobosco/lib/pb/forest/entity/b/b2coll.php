@@ -62,7 +62,7 @@ class B2Coll extends \forest\template\EntityColl {
                 '( SELECT diz_arbo.nome_itali || \' | \' || diz_arbo.nome_scien FROM diz_arbo WHERE diz_arbo.cod_coltu=sched_b2.cod_coltub) '
              )
         ));
-        if ($this->b instanceof\forest\entity\b\B) {
+        if ($this->b instanceof \forest\entity\b\B) {
             $select->where('sched_b2.proprieta = ?', $this->b->getData('proprieta'))
                    ->where('sched_b2.cod_part = ?', $this->b->getData('cod_part'))
                    ->where('sched_b2.cod_fo = ?', $this->b->getData('cod_fo'));

@@ -334,7 +334,10 @@ class gPoint
 		$eccPrimeSquared = ($this->e2)/(1-$this->e2);
 
 		$M = $y / $k0;
-		$mu = $M/($this->a*(1-$this->e2/4-3*$this->e2*$this->e2/64-5*$this->e2*$this->e2*$this->e2/256));
+                $mu = 0;
+                if ($this->a > 0) {
+                    $mu = $M/($this->a*(1-$this->e2/4-3*$this->e2*$this->e2/64-5*$this->e2*$this->e2*$this->e2/256));
+                }
 
 		$phi1Rad = $mu	+ (3*$e1/2-27*$e1*$e1*$e1/32)*sin(2*$mu) 
 					+ (21*$e1*$e1/16-55*$e1*$e1*$e1*$e1/32)*sin(4*$mu)
@@ -345,7 +348,10 @@ class gPoint
 		$T1 = tan($phi1Rad)*tan($phi1Rad);
 		$C1 = $eccPrimeSquared*cos($phi1Rad)*cos($phi1Rad);
 		$R1 = $this->a*(1-$this->e2)/pow(1-$this->e2*sin($phi1Rad)*sin($phi1Rad), 1.5);
-		$D = $x/($N1*$k0);
+                $D = 0;
+                if($N1>0 && $k0 > 0) {
+                    $D = $x/($N1*$k0);
+                }
 
 		$tlat = $phi1Rad - ($N1*tan($phi1Rad)/$R1)*($D*$D/2-(5+3*$T1+10*$C1-4*$C1*$C1-9*$eccPrimeSquared)*$D*$D*$D*$D/24
 						+(61+90*$T1+298*$C1+45*$T1*$T1-252*$eccPrimeSquared-3*$C1*$C1)*$D*$D*$D*$D*$D*$D/720); // fixed in 1.1
