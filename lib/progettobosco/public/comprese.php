@@ -34,8 +34,8 @@ if (key_exists('compresa', $_REQUEST)) {
             $workingcircle->addFormA($forma);
             } catch (Exception $e) {
                 switch ($e->getCode()) {
-                    case 0905131149:
-                    case 1705130906:
+                    case '0905131149':
+                    case '1705130906':
                     break;
                     default : 
                         throw $e;
@@ -82,7 +82,7 @@ if (key_exists('compresa', $_REQUEST)) {
                  $workingcircle->addFormA($a);
                  } catch (Exception $e)
                  { 
-                    if ($e->getCode() != 0905131149)
+                    if ($e->getCode() != '0905131149')
                     throw $e;
                  }
         }

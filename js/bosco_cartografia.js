@@ -21,15 +21,16 @@ if (typeof center != "undefined") {
 }
 }
 
-function loadScript() {
-    if($("#googlemapscript").length == 0) {
-        $("<script/>", {
-        type : "text/javascript",
-        src: "https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize",
-        id: "googlemapscript"
-        }).appendTo("body");
-    }
-}
+$(document).ready(function() {
+        if ($('#map-canvas').length > 0) {
 
-loadScript();
+         mapboxgl.accessToken = 'pk.eyJ1IjoiZmxvcmFlaXQiLCJhIjoiY2pqOXJyOHF2MzlsODNwbzY5cDFldGIwcyJ9.ccN5GSNm1e58Y7CL3CjavQ';
+         var map = new mapboxgl.Map({
+            container: 'map-canvas',
+            style: 'mapbox://styles/mapbox/outdoors-v9',
+            center: [center["long"], center["lat"]],
+            zoom: 8
+         });
+    }
+});
 
