@@ -69,7 +69,7 @@ class B3Coll extends \forest\template\EntityColl {
      * @param null|array $criteria Filtering criteria
      */
     public function countAll(array $criteria = null) {
-            if ($this->b instanceof \forest\entity\b\B) {
+            if (is_object($this->b)) {
                 $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
                 $select->where('sched_b3.proprieta = ?', $this->b->getData('proprieta'))
                        ->where('sched_b3.cod_part = ?', $this->b->getData('cod_part'))
