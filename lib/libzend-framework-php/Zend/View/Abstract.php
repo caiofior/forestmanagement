@@ -139,6 +139,13 @@ abstract class Zend_View_Abstract implements Zend_View_Interface
      */
     private $_strictVars = false;
 
+    public $controler=null;
+    public $user=null;
+    public $blocks=null;
+    public $forest=null;
+    public $formErrors=null;
+    public $message=null;
+
     /**
      * Constructor.
      *

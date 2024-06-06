@@ -357,7 +357,7 @@ class gPoint
 		   $tlat = $phi1Rad - ($N1*tan($phi1Rad)/$R1)*($D*$D/2-(5+3*$T1+10*$C1-4*$C1*$C1-9*$eccPrimeSquared)*$D*$D*$D*$D/24
 						+(61+90*$T1+298*$C1+45*$T1*$T1-252*$eccPrimeSquared-3*$C1*$C1)*$D*$D*$D*$D*$D*$D/720); // fixed in 1.1
       }
-		$this->lat = rad2deg($tlat);
+		$this->lat = rad2deg((float)$tlat);
 
 		$tlong = ($D-(1+2*$T1+$C1)*$D*$D*$D/6+(5-2*$C1+28*$T1-3*$C1*$C1+8*$eccPrimeSquared+24*$T1*$T1)
 						*$D*$D*$D*$D*$D/120)/cos($phi1Rad);
