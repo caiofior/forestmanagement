@@ -72,7 +72,7 @@ class CColl extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->x instanceof \forest\entity\x\X &&
                 is_array($this->x->getData()) &&
                 sizeof($this->x->getData()) == sizeof($this->content->getTable()->info('cols')))  {

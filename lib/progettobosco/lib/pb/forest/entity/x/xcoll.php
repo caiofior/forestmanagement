@@ -74,7 +74,7 @@ class XColl extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->b1 instanceof \forest\entity\b\B1)  {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
             $select->where('schede_x.proprieta = ?', $this->b1->getData('proprieta'))

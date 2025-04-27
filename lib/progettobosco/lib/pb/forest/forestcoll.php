@@ -137,7 +137,7 @@ class ForestColl extends \ContentColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->filterByUser || is_array($criteria)) {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
             if (key_exists('search', $criteria))

@@ -66,7 +66,7 @@ class B1Coll extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->b instanceof \forest\entity\b\B) {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
             $select->where('sched_b1.proprieta = ?', $this->b->getData('proprieta'))

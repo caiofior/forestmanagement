@@ -87,7 +87,7 @@ class B3Coll  extends \ContentColl  {
      * Returns all contents without any filter
      * @param array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->form_b3 instanceof \forest\entity\b\B3) {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
             $select->where(' cod_part = ? ',$this->form_b3->getData('cod_part'))

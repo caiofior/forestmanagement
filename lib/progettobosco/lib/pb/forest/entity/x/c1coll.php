@@ -75,7 +75,7 @@ class C1Coll extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->c instanceof \forest\entity\x\C)  {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
             $select->where('sched_c1.proprieta = ?', $this->c->getData('proprieta'))

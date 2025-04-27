@@ -64,7 +64,7 @@ class Table2Coll  extends \ContentColl  {
      * Returns all contents without any filter
      * @param array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
             if ($this->table instanceof \forest\attribute\Table) {
                 $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
                 $select = $this->customSelect($select,array());

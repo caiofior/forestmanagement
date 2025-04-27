@@ -88,7 +88,7 @@ class AColl  extends \ContentColl  {
      * Returns all contents without any filter
      * @param array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->form_a instanceof \forest\entity\A) {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
             $select->where(' cod_part = ? ',$this->form_a->getData('cod_part'))

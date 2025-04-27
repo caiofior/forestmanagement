@@ -89,7 +89,7 @@ class ForestMassEsteemColl  extends \ContentColl  {
      * Returns all contents without any filter
      * @param array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
             return parent::countAll();
 
     }

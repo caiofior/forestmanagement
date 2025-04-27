@@ -46,7 +46,7 @@ class ControlColl extends \ContentColl {
      * Loads all data
      * @param array $criteria
      */
-    public function loadAll(array $criteria = null) {
+    public function loadAll(?array $criteria = null) {
         $this->criteria = $criteria;
         $table =$this->content->getTable();
         if(is_null($table))

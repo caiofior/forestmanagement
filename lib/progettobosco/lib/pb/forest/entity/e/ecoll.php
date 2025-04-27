@@ -70,7 +70,7 @@ class EColl extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->forest instanceof \forest\Forest || is_array($criteria)) {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
              if (key_exists('codiope', $criteria) && $criteria['codiope'] != '') {

@@ -70,7 +70,7 @@ class E1Coll extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->e instanceof \forest\entity\e\E || is_array($criteria)) {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
              if ($this->e instanceof \forest\Forest && $this->e->getData('poprieta') != '') {

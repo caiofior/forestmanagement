@@ -72,7 +72,7 @@ class GColl extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->g1 instanceof \forest\entity\x\D &&
                 is_array($this->g1->getData()) &&
                 sizeof($this->g1->getData()) == sizeof($this->content->getTable()->info('cols')))  {

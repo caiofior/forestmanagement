@@ -61,7 +61,7 @@ class WorkingCircleColl extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
             return parent::countAll();
 
     }

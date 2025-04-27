@@ -118,7 +118,7 @@ class CadastralColl  extends \ContentColl implements \forest\template\AttributeC
      * Returns all contents without any filter
      * @param array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->forest instanceof \forest\Forest) {
             $select = $this->content->getTable()->select()->from($this->content->getTable()->info('name'),'COUNT(*)');
             $select->where(' proprieta = ? ',$this->forest->getData('codice'));

@@ -66,7 +66,7 @@ class PolygonColl extends \ContentColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
             parent::countAll();
     }
     /**

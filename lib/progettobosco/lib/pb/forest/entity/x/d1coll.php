@@ -80,7 +80,7 @@ class D1Coll extends \forest\template\EntityColl {
      * Returns all contents without any filter
      * @param null|array $criteria Filtering criteria
      */
-    public function countAll(array $criteria = null) {
+    public function countAll(?array $criteria = null) {
         if ($this->d instanceof \forest\entity\x\D &&
                 is_array($this->d->getData()) &&
                 sizeof($this->d->getData()) == sizeof($this->content->getTable()->info('cols')))  {
